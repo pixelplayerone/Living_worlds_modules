@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	==================================================================
+	 THE OPENER ITEM - a piece of paper that opens the shop
+	==================================================================
+
+	Double-click it in game and the shop opens. That is the whole
+	mechanism; there is no NPC and no chat command involved.
+
+	HOW THE ITEM IS WIRED TO THIS MODULE
+
+	ItemHandler keys handlers by NAME, not by item id:
+
+	    registerHandler(h) -> _datatable.put(h.getClass().getSimpleName(), h)
+	    getHandler(item)  -> _datatable.get(item.getHandlerName())
+
+	So the last line below does not name an id. It names the class
+	ShopOpenItem, and the core finds it because that is its simple
+	class name. Rename the class and this line must change with it.
+
+	WHY displayId AND NOT name
+
+	There is no server-side name override. AbstractItemPacket writes
+	the display id and NO name string, so the client takes both the
+	name AND the icon from the display id. This item is defined as
+	"Shop Catalogue" and the player will see whatever item 1695 is
+	called in their bag. That is a client limitation, not a bug in
+	the definition. Pick a display id whose stock name suits you.
+
+	No default_action and no etcitem_type. UseItem dispatches on the
+	handler name regardless of default_action, and an etc item needs
+	neither.
+-->
+<list>
+	<item id="40000" type="EtcItem" name="Shop Catalogue">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="displayId" val="1695" />
+		<set name="material" val="PAPER" />
+		<set name="price" val="0" />
+		<set name="weight" val="0" />
+		<set name="is_stackable" val="false" />
+		<!--
+			A permission slip, not loot: it is granted by whatever
+			distributes it and has no business being sold, dropped,
+			traded or put in a warehouse.
+		-->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ShopOpenItem" />
+	</item>
+
+</list>

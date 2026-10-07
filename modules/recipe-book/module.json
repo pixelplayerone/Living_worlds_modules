@@ -1,0 +1,10 @@
+{
+  "id": "recipe-book",
+  "name": "Recipe Book",
+  "version": "1.0.3",
+  "apiVersion": "1",
+  "entrypoint": "modules.recipebook.RecipeBookModule",
+  "description": "Community Board tab: every craftable recipe you can actually obtain (monster drop or quest reward), ingredient have/need counts, where each ingredient drops, and a personal goal list with a combined shopping list.",
+  "author": "sateriok",
+  "priority": 100
+}

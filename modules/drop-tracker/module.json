@@ -1,0 +1,10 @@
+{
+  "id": "drop-tracker",
+  "name": "Drop Tracker",
+  "version": "1.0.2",
+  "apiVersion": "1",
+  "entrypoint": "modules.droptracker.DropTrackerModule",
+  "description": "Benchmark tool: .drops start / stop / status records kills per monster, XP and SP, adena, seal stones, Ancient Adena and every item gained across the whole party, and reports per-hour rates.",
+  "author": "sateriok",
+  "priority": 100
+}

@@ -1,0 +1,28 @@
+{
+  "id": "adventurer-buffer",
+  "name": "Adventurer Buffer",
+  "version": "0.4.3",
+  "apiVersion": "1",
+  "entrypoint": "modules.adventurerbuffer.AdventurerBufferModule",
+  "description": "Town support with owner-configured Basic, Mid or editable Custom buffs.",
+  "author": "Khaos",
+  "priority": 100,
+  "dependencies": [],
+  "conflicts": [
+    "newbie-town-buffer",
+    "buff-limits"
+  ],
+  "resources": {
+    "npcs": [
+      "data/npcs"
+    ]
+  },
+  "reserves": {
+    "npcs": [
+      [
+        59850,
+        59850
+      ]
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shop",
+  "name": "Pocket Shop",
+  "version": "1.0.2",
+  "apiVersion": "1",
+  "entrypoint": "shop.ShopFrontModule",
+  "description": "A shop that opens from an item in every player's bag, so you can sell your own items (custom ones included) without placing an NPC. Other modules can link to it or list their items in it. Stock and prices are set in module.ini.",
+  "author": "HumblePie",
+  "priority": 50,
+  "resources": {
+    "items": ["data/items"],
+    "multisell": ["data/multisell"]
+  },
+  "reserves": {
+    "items": [[40000, 40000]]
+  }
+}

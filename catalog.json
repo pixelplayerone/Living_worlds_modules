@@ -1,0 +1,137 @@
+[
+  {
+    "id": "adventurer-buffer",
+    "folder": "adventurer-buffer",
+    "name": "Adventurer Buffer",
+    "version": "0.4.3",
+    "author": "Khaos",
+    "apiVersion": "1",
+    "description": "Town support with owner-configured Basic, Mid or editable Custom buffs."
+  },
+  {
+    "id": "bot-control",
+    "folder": "bot-control",
+    "name": "Bot Control Menu",
+    "version": "1.0.0",
+    "author": "justneedair",
+    "apiVersion": "1",
+    "description": "HTML menu that sends party-chat commands to Living World phantoms when a button is pressed"
+  },
+  {
+    "id": "bot-summon",
+    "folder": "bot-summon",
+    "name": "Bot Summon Menus",
+    "version": "1.0.0",
+    "author": "justneedair",
+    "apiVersion": "1",
+    "description": "Three voiced menus (.lfclass, .lfrole, .lfbuff) that shout LF for one bot at a time."
+  },
+  {
+    "id": "buff-limits",
+    "folder": "buff-limits",
+    "name": "Buff Limits",
+    "version": "1.2.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Sets 2-hour durations on buffer-NPC buffs and on perma-uptime class self buffs like War Cry. Burst skills such as Frenzy are untouched. Applied in memory at startup; no files edited."
+  },
+  {
+    "id": "class-master",
+    "folder": "class-master",
+    "name": "Class Master",
+    "version": "1.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a class master NPC that changes a player's profession at levels 20, 40 and 76, with an adena price for each change."
+  },
+  {
+    "id": "craft-master",
+    "folder": "craft-master",
+    "name": "Craft Master",
+    "version": "1.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a Craft Master NPC that crafts any item at a 100% success rate when you bring the recipe item and the normal materials. The recipe item is used up."
+  },
+  {
+    "id": "craft-master-free",
+    "folder": "craft-master-free",
+    "name": "Craft Master (No Recipe)",
+    "version": "1.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a Craft Master NPC that crafts any item in the game at a 100% success rate from materials alone, no recipe needed."
+  },
+  {
+    "id": "drop-tracker",
+    "folder": "drop-tracker",
+    "name": "Drop Tracker",
+    "version": "1.0.2",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Benchmark tool: .drops start / stop / status records kills per monster, XP and SP, adena, seal stones, Ancient Adena and every item gained across the whole party, and reports per-hour rates."
+  },
+  {
+    "id": "gm-shop-full",
+    "folder": "gm-shop-full",
+    "name": "GM Shop Full",
+    "version": "2.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a Giran merchant with a menu: weapons, armor and jewelry by grade, raid boss jewels, and consumables with enchant and augment supplies."
+  },
+  {
+    "id": "gm-shop-lite",
+    "folder": "gm-shop-lite",
+    "name": "GM Shop Lite",
+    "version": "2.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a Giran merchant that sells shots, everyday consumables and cosmetic accessories."
+  },
+  {
+    "id": "shop",
+    "folder": "shop",
+    "name": "Pocket Shop",
+    "version": "1.0.2",
+    "author": "HumblePie",
+    "apiVersion": "1",
+    "description": "A shop that opens from an item in every player's bag, so you can sell your own items (custom ones included) without placing an NPC. Other modules can link to it or list their items in it. Stock and prices are set in module.ini."
+  },
+  {
+    "id": "preset-buffer",
+    "folder": "preset-buffer",
+    "name": "Preset Buffer",
+    "version": "1.0.0",
+    "author": "Sateriok",
+    "apiVersion": "1",
+    "description": "Adds a Giran NPC that gives a full fighter or mage buff preset in one click."
+  },
+  {
+    "id": "quest-book",
+    "folder": "quest-book",
+    "name": "Quest Book",
+    "version": "1.0.0",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Community Board tab: every quest by minimum level, who gives it (click to mark the NPC on your map), monsters involved, rewards, and your progress."
+  },
+  {
+    "id": "recipe-book",
+    "folder": "recipe-book",
+    "name": "Recipe Book",
+    "version": "1.0.3",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Community Board tab: every craftable recipe you can actually obtain (monster drop or quest reward), ingredient have/need counts, where each ingredient drops, and a personal goal list with a combined shopping list."
+  },
+  {
+    "id": "world-tuner",
+    "folder": "world-tuner",
+    "name": "World Tuner",
+    "version": "1.0.7",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Scales monster respawn times and spawn counts for the whole world, a level range, chosen regions or single monsters, from one config file. Raid bosses, minions, instances and quest spawns are left alone."
+  }
+]

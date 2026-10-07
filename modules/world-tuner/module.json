@@ -1,0 +1,10 @@
+{
+  "id": "world-tuner",
+  "name": "World Tuner",
+  "version": "1.0.7",
+  "apiVersion": "1",
+  "entrypoint": "modules.worldtuner.WorldTunerModule",
+  "description": "Scales monster respawn times and spawn counts for the whole world, a level range, chosen regions or single monsters, from one config file. Raid bosses, minions, instances and quest spawns are left alone.",
+  "author": "sateriok",
+  "priority": 100
+}

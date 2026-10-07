@@ -1,0 +1,89 @@
+SUPPORTED CUSTOM BUFFS - ID:rank syntax; rank must be 1..maximum
+Names are a reference only; enter numeric ID:rank in CustomBuffs.
+Do not combine two entries with the same family. Maximum20 regular +12 songs/dances.
+ID | Name | Maximum rank | Category | Exclusive family
+264 | Song of Earth | 1 | Songs | SONG_OF_EARTH
+265 | Song of Life | 1 | Songs | SONG_OF_LIFE
+266 | Song of Water | 1 | Songs | SONG_OF_WATER
+267 | Song of Warding | 1 | Songs | SONG_OF_WARDING
+268 | Song of Wind | 1 | Songs | SONG_OF_WIND
+269 | Song of Hunter | 1 | Songs | SONG_OF_HUNTER
+270 | Song of Invocation | 1 | Songs | SONG_OF_INVOCATION
+271 | Dance of the Warrior | 1 | Dances | DANCE_OF_WARRIOR
+272 | Dance of Inspiration | 1 | Dances | DANCE_OF_INSPIRATION
+273 | Dance of the Mystic | 1 | Dances | DANCE_OF_MYSTIC
+274 | Dance of Fire | 1 | Dances | DANCE_OF_FIRE
+275 | Dance of Fury | 1 | Dances | DANCE_OF_FURY
+276 | Dance of Concentration | 1 | Dances | DANCE_OF_CONCENTRATION
+277 | Dance of Light | 1 | Dances | DANCE_OF_LIGHT
+304 | Song of Vitality | 1 | Songs | SONG_OF_VITALITY
+305 | Song of Vengeance | 1 | Songs | SONG_OF_VENGEANCE
+306 | Song of Flame Guard | 1 | Songs | SONG_OF_FLAME_GUARD
+307 | Dance of Aqua Guard | 1 | Dances | DANCE_OF_AQUA_GUARD
+308 | Song of Storm Guard | 1 | Songs | SONG_OF_STORM_GUARD
+309 | Dance of Earth Guard | 1 | Dances | DANCE_OF_EARTH_GUARD
+310 | Dance of the Vampire | 1 | Dances | DANCE_OF_VAMPIRE
+311 | Dance of Protection | 1 | Dances | DANCE_OF_PROTECTION
+349 | Song of Renewal | 1 | Songs | SONG_OF_RENEWAL
+363 | Song of Meditation | 1 | Songs | SONG_OF_MEDITATION
+364 | Song of Champion | 1 | Songs | SONG_OF_CHAMPION
+365 | Siren's Dance | 1 | Dances | DANCE_OF_SIREN
+1002 | Flame Chant | 3 | Chants | CASTING_TIME_DOWN
+1006 | Chant of Fire | 3 | Chants | MD_UP
+1007 | Chant of Battle | 3 | Chants | PA_UP
+1009 | Chant of Shielding | 3 | Chants | PD_UP
+1032 | Invigor | 3 | Resist | RESIST_BLEEDING
+1033 | Resist Poison | 3 | Resist | RESIST_POISON
+1035 | Mental Shield | 4 | Buffs | RESIST_DERANGEMENT
+1036 | Magic Barrier | 2 | Buffs | MD_UP
+1040 | Shield | 3 | Buffs | PD_UP
+1043 | Holy Weapon | 1 | Buffs | HOLY_ATTACK
+1044 | Regeneration | 3 | Buffs | HP_REGEN_UP
+1045 | Blessed Body | 6 | Buffs | MAX_HP_UP
+1048 | Blessed Soul | 6 | Buffs | MAX_MP_UP
+1059 | Empower | 3 | Buffs | MA_UP
+1062 | Berserker Spirit | 2 | Buffs | BERSERKER
+1068 | Might | 3 | Buffs | PA_UP
+1077 | Focus | 3 | Buffs | CRITICAL_PROB_UP
+1078 | Concentration | 6 | Buffs | CANCEL_PROB_DOWN
+1085 | Acumen | 3 | Buffs | CASTING_TIME_DOWN
+1086 | Haste | 2 | Buffs | ATTACK_TIME_DOWN
+1087 | Agility | 3 | Buffs | AVOID_UP
+1182 | Resist Aqua | 3 | Resist | ARMOR_WATER
+1189 | Resist Wind | 3 | Resist | ARMOR_WIND
+1191 | Resist Fire | 3 | Resist | ARMOR_FIRE
+1204 | Wind Walk | 2 | Buffs | SPEED_UP
+1240 | Guidance | 3 | Buffs | HIT_UP
+1242 | Death Whisper | 3 | Buffs | CRITICAL_DMG_UP
+1243 | Bless Shield | 6 | Buffs | SHIELD_PROB_UP
+1251 | Chant of Fury | 2 | Chants | ATTACK_TIME_DOWN
+1252 | Chant of Evasion | 3 | Chants | AVOID_UP
+1253 | Chant of Rage | 3 | Chants | CRITICAL_DMG_UP
+1259 | Resist Shock | 4 | Resist | RESIST_SHOCK
+1268 | Vampiric Rage | 4 | Buffs | VAMPIRIC_ATTACK
+1284 | Chant of Revenge | 3 | Chants | DMG_SHIELD
+1303 | Wild Magic | 2 | Buffs | MAGIC_CRITICAL_UP
+1304 | Advanced Block | 3 | Buffs | SHIELD_DEFENCE_UP
+1308 | Chant of Predator | 3 | Chants | CRITICAL_PROB_UP
+1309 | Chant of Eagle | 3 | Chants | HIT_UP
+1310 | Chant of Vampire | 4 | Chants | VAMPIRIC_ATTACK
+1352 | Elemental Protection | 1 | Resist | MD_UP_ATTR
+1353 | Divine Protection | 1 | Resist | RESIST_HOLY_UNHOLY
+1354 | Arcane Protection | 1 | Resist | RESIST_DEBUFF_DISPEL
+1355 | Prophecy of Water | 1 | Special | MULTI_BUFF
+1356 | Prophecy of Fire | 1 | Special | MULTI_BUFF
+1357 | Prophecy of Wind | 1 | Special | MULTI_BUFF
+1362 | Chant of Spirit | 1 | Chants | RESIST_DEBUFF_DISPEL
+1363 | Chant of Victory | 1 | Special | MULTI_BUFF
+1388 | Greater Might | 3 | Buffs | PA_PD_UP
+1389 | Greater Shield | 3 | Buffs | PA_PD_UP
+1390 | War Chant | 3 | Buffs | PA_PD_UP
+1391 | Earth Chant | 3 | Buffs | PA_PD_UP
+1392 | Holy Resistance | 3 | Resist | ARMOR_HOLY
+1393 | Unholy Resistance | 3 | Resist | ARMOR_UNHOLY
+1397 | Clarity | 3 | Buffs | CHEAP_MAGIC
+1413 | Magnus' Chant | 1 | Special | MULTI_BUFF
+4699 | Blessing of Queen | 13 | Special | BUFF_QUEEN_OF_CAT
+4700 | Gift of Queen | 13 | Special | BUFF_QUEEN_OF_CAT
+4702 | Blessing of Seraphim | 13 | Special | BUFF_UNICORN_SERAPHIM
+4703 | Gift of Seraphim | 13 | Special | BUFF_UNICORN_SERAPHIM

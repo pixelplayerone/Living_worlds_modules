@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Sample multisell list for Shop Front.
+
+	THE FILE NAME IS THE LIST ID. data/multisell/950000.xml is list 950000, and
+	config/module.ini has to say MultisellId = 950000 to match. Renaming either
+	one without the other gives you a page whose button opens nothing.
+
+	THE <npc>-1</npc> SENTINEL IS NOT OPTIONAL
+
+	MultisellData.separateAndSend refuses to send a list to a player unless
+	ListContainer.isNpcAllowed says otherwise:
+
+	    if (!list.isNpcAllowed(-1) && (npc == null || !list.isNpcAllowed(npc.getId()))) {
+	        if (player.isGM()) { player.sendMessage("... only gm are allowed ..."); }
+	        else { return; }                                     <- player stops here
+	    }
+
+	isNpcAllowed(-1) is the first test and it is a literal contains(-1), which
+	gives three states:
+
+	    no <npcs> block at all  -> allowed set is null -> isNpcAllowed(-1) is
+	                              false -> GM only
+	    <npcs><npc>SOMEID</npc> -> only that npc instance may open it
+	    <npcs><npc>-1</npc>     -> first test passes, the block is skipped
+	                              entirely, and the list goes to anybody
+
+	There is no NPC behind this shop. It is opened from a command, so npc is
+	null and only the -1 branch can let it through.
+
+	The GM branch does not stop the send either - it writes a message and falls
+	through - so "only gm are allowed" was never a permission, it was just the
+	branch left standing after the NPC test failed. If a player reports that the
+	window will not open for them, this line is the first thing to check.
+
+	MultiSellChoose repeats the same test when the player buys, and skips its
+	own npc / objectId / instance / distance checks the same way. So -1 is what
+	lets the purchase COMPLETE, not just the window open. Getting this wrong
+	gives the worst possible symptom: a window that opens and then refuses
+	every purchase.
+
+	Why a multisell and not a merchant buy list: the BuyList packet carries only
+	item id, price and a stock marker, with no display id, so the client has to
+	draw the item out of its own tables. A multisell sends a display id per
+	product, which is why the window shows the same icons the page does.
+
+	Prices are in two places on purpose. The prices in config/module.ini charge
+	the page's own quantity buttons; the prices here charge the window. The
+	module compares them at startup and logs a warning naming any row that has
+	drifted, so changing one and forgetting the other is reported rather than
+	silently selling at whichever is cheaper. Keep them together.
+
+	No xsi:noNamespaceSchemaLocation on the root, on purpose: a relative
+	../xsd/multisell.xsd would resolve against the module folder, where there is
+	no xsd directory.
+
+	EXPECT ONE HARMLESS MESSAGE AT BOOT. The server validates multisell files, and a
+	file with no schema reference has no declaration to validate against, so it
+	prints "cvc-elt.1.a: Cannot find the declaration of element 'list'" with this
+	file's name and the line of <list>. It is a warning from the XML parser, not an
+	error in this file: the list still loads, and the startup line from this module
+	("multisell 950000 checked, N row(s)") confirms it. The server prints the same
+	message for some of its own files.
+-->
+<list>
+	<npcs>
+		<!-- See above. Do not replace with a real npc id, do not delete. -->
+		<npc>-1</npc>
+	</npcs>
+	<!--
+		These two rows are the SAME two items, at the SAME prices, as the Items key
+		in config/module.ini. That is the whole contract between this file and the
+		page: the page draws what Items says, this list is what the window sells.
+
+		Keep them in step. Add a row to one and not the other and the shop stops
+		agreeing with itself - the page lists something the window does not have,
+		or the window offers something the page never mentioned. Startup compares
+		the prices of the rows that appear in both and logs a warning naming any
+		that have drifted.
+
+		These are EXAMPLES. 1 is a Short Sword and 1146 is a Squire's Shirt.
+	-->
+	<item>
+		<!-- 1,000 Adena -> Short Sword (1) -->
+		<ingredient count="1000" id="57" />
+		<production count="1" id="1" />
+	</item>
+	<item>
+		<!-- 25,000 Adena -> Squire's Shirt (1146) -->
+		<ingredient count="25000" id="57" />
+		<production count="1" id="1146" />
+	</item>
+</list>

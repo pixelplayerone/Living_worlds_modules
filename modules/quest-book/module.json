@@ -1,0 +1,10 @@
+{
+  "id": "quest-book",
+  "name": "Quest Book",
+  "version": "1.0.0",
+  "apiVersion": "1",
+  "entrypoint": "modules.questbook.QuestBookModule",
+  "description": "Community Board tab: every quest by minimum level, who gives it (click to mark the NPC on your map), monsters involved, rewards, and your progress.",
+  "author": "sateriok",
+  "priority": 100
+}
