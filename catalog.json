@@ -90,6 +90,15 @@
     "description": "Adds a Giran merchant that sells shots, everyday consumables and cosmetic accessories."
   },
   {
+    "id": "hunting",
+    "folder": "hunting",
+    "name": "Hunting",
+    "version": "1.0.1",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Community Board tab with Extermination Contracts (hunt each named hunting ground once) and Bounties (one per raid boss, with a bonus for clearing a level range), paid in adena. Progress survives restarts."
+  },
+  {
     "id": "shop",
     "folder": "shop",
     "name": "Pocket Shop",

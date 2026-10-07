@@ -1,0 +1,10 @@
+{
+  "id": "hunting",
+  "name": "Hunting",
+  "version": "1.0.1",
+  "apiVersion": "1",
+  "entrypoint": "modules.hunting.HuntingModule",
+  "description": "Community Board tab with Extermination Contracts (hunt each named hunting ground once) and Bounties (one per raid boss, with a bonus for clearing a level range), paid in adena. Progress survives restarts.",
+  "author": "sateriok",
+  "priority": 100
+}

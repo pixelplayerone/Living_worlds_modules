@@ -25,6 +25,7 @@ No server rebuild is needed to turn a feature on or off, only a restart.
 | [Drop Tracker](modules/drop-tracker) | 1.0.2 | sateriok | Benchmark tool: .drops start / stop / status records kills per monster, XP and SP, adena, seal stones, Ancient Adena and every item gained across the whole party, and reports per-hour rates. |
 | [GM Shop Full](modules/gm-shop-full) | 2.0.0 | Sateriok | Adds a Giran merchant with a menu: weapons, armor and jewelry by grade, raid boss jewels, and consumables with enchant and augment supplies. |
 | [GM Shop Lite](modules/gm-shop-lite) | 2.0.0 | Sateriok | Adds a Giran merchant that sells shots, everyday consumables and cosmetic accessories. |
+| [Hunting](modules/hunting) | 1.0.1 | sateriok | Community Board tab with Extermination Contracts (hunt each named hunting ground once) and Bounties (one per raid boss, with a bonus for clearing a level range), paid in adena. Progress survives restarts. |
 | [Pocket Shop](modules/shop) | 1.0.2 | HumblePie | A shop that opens from an item in every player's bag, so you can sell your own items (custom ones included) without placing an NPC. Other modules can link to it or list their items in it. Stock and prices are set in module.ini. |
 | [Preset Buffer](modules/preset-buffer) | 1.0.0 | Sateriok | Adds a Giran NPC that gives a full fighter or mage buff preset in one click. |
 | [Quest Book](modules/quest-book) | 1.0.0 | sateriok | Community Board tab: every quest by minimum level, who gives it (click to mark the NPC on your map), monsters involved, rewards, and your progress. |
