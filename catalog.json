@@ -9,6 +9,15 @@
     "description": "Town support with owner-configured Basic, Mid or editable Custom buffs."
   },
   {
+    "id": "arena-dueling",
+    "folder": "arena-dueling",
+    "name": "Arena Dueling",
+    "version": "1.1.0",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Phantoms hang out at the town PvP arenas and spar. Walk in and one of your own class challenges you to a duel, or call a duel by class yourself, optionally for an adena stake."
+  },
+  {
     "id": "bot-control",
     "folder": "bot-control",
     "name": "Bot Control Menu",
@@ -99,6 +108,15 @@
     "description": "Community Board tab with Extermination Contracts (hunt each named hunting ground once) and Bounties (one per raid boss, with a bonus for clearing a level range), paid in adena. Progress survives restarts."
   },
   {
+    "id": "phantom-encounters",
+    "folder": "phantom-encounters",
+    "name": "Phantom Encounters",
+    "version": "1.5.2",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "PvP danger: phantoms occasionally come for you in the field and fight you once. Five kinds from a wimp that asks if you are a bot to the AssMuncher, each with its own timer, strength and adena reward. Optional Contested Farming Zones: kills in popular hunting grounds can bring a phantom who claims the spot."
+  },
+  {
     "id": "shop",
     "folder": "shop",
     "name": "Pocket Shop",
@@ -115,6 +133,15 @@
     "author": "Sateriok",
     "apiVersion": "1",
     "description": "Adds a Giran NPC that gives a full fighter or mage buff preset in one click."
+  },
+  {
+    "id": "pvp-events",
+    "folder": "pvp-events",
+    "name": "PvP Events",
+    "version": "1.3.0",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Start a PvP event with bots from the Community Board: free-for-all, King of the Hill, team deathmatch, Korean-style one-at-a-time, duels and 9v9, or watch bots fight. Scenario presets with roles and classes, kill scoring, respawns, a results table with kills and damage, and you are put back where you stood."
   },
   {
     "id": "quest-book",

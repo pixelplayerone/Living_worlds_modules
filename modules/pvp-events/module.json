@@ -1,0 +1,10 @@
+{
+  "id": "pvp-events",
+  "name": "PvP Events",
+  "version": "1.3.0",
+  "apiVersion": "1",
+  "entrypoint": "modules.pvpevents.PvpEventsModule",
+  "description": "Start a PvP event with bots from the Community Board: free-for-all, King of the Hill, team deathmatch, Korean-style one-at-a-time, duels and 9v9, or watch bots fight. Scenario presets with roles and classes, kill scoring, respawns, a results table with kills and damage, and you are put back where you stood.",
+  "author": "sateriok",
+  "priority": 100
+}

@@ -16,6 +16,7 @@ No server rebuild is needed to turn a feature on or off, only a restart.
 | Module | Version | Author | Description |
 |---|---|---|---|
 | [Adventurer Buffer](modules/adventurer-buffer) | 0.4.3 | Khaos | Town support with owner-configured Basic, Mid or editable Custom buffs. |
+| [Arena Dueling](modules/arena-dueling) | 1.1.0 | sateriok | Phantoms hang out at the town PvP arenas and spar. Walk in and one of your own class challenges you to a duel, or call a duel by class yourself, optionally for an adena stake. |
 | [Bot Control Menu](modules/bot-control) | 1.0.0 | justneedair | HTML menu that sends party-chat commands to Living World phantoms when a button is pressed |
 | [Bot Summon Menus](modules/bot-summon) | 1.0.0 | justneedair | Three voiced menus (.lfclass, .lfrole, .lfbuff) that shout LF for one bot at a time. |
 | [Buff Limits](modules/buff-limits) | 1.2.0 | Sateriok | Sets 2-hour durations on buffer-NPC buffs and on perma-uptime class self buffs like War Cry. Burst skills such as Frenzy are untouched. Applied in memory at startup; no files edited. |
@@ -26,8 +27,10 @@ No server rebuild is needed to turn a feature on or off, only a restart.
 | [GM Shop Full](modules/gm-shop-full) | 2.0.0 | Sateriok | Adds a Giran merchant with a menu: weapons, armor and jewelry by grade, raid boss jewels, and consumables with enchant and augment supplies. |
 | [GM Shop Lite](modules/gm-shop-lite) | 2.0.0 | Sateriok | Adds a Giran merchant that sells shots, everyday consumables and cosmetic accessories. |
 | [Hunting](modules/hunting) | 1.0.1 | sateriok | Community Board tab with Extermination Contracts (hunt each named hunting ground once) and Bounties (one per raid boss, with a bonus for clearing a level range), paid in adena. Progress survives restarts. |
+| [Phantom Encounters](modules/phantom-encounters) | 1.5.2 | sateriok | PvP danger: phantoms occasionally come for you in the field and fight you once. Five kinds from a wimp that asks if you are a bot to the AssMuncher, each with its own timer, strength and adena reward. Optional Contested Farming Zones: kills in popular hunting grounds can bring a phantom who claims the spot. |
 | [Pocket Shop](modules/shop) | 1.0.2 | HumblePie | A shop that opens from an item in every player's bag, so you can sell your own items (custom ones included) without placing an NPC. Other modules can link to it or list their items in it. Stock and prices are set in module.ini. |
 | [Preset Buffer](modules/preset-buffer) | 1.0.0 | Sateriok | Adds a Giran NPC that gives a full fighter or mage buff preset in one click. |
+| [PvP Events](modules/pvp-events) | 1.3.0 | sateriok | Start a PvP event with bots from the Community Board: free-for-all, King of the Hill, team deathmatch, Korean-style one-at-a-time, duels and 9v9, or watch bots fight. Scenario presets with roles and classes, kill scoring, respawns, a results table with kills and damage, and you are put back where you stood. |
 | [Quest Book](modules/quest-book) | 1.0.0 | sateriok | Community Board tab: every quest by minimum level, who gives it (click to mark the NPC on your map), monsters involved, rewards, and your progress. |
 | [Recipe Book](modules/recipe-book) | 1.0.3 | sateriok | Community Board tab: every craftable recipe you can actually obtain (monster drop or quest reward), ingredient have/need counts, where each ingredient drops, and a personal goal list with a combined shopping list. |
 | [World Tuner](modules/world-tuner) | 1.0.7 | sateriok | Scales monster respawn times and spawn counts for the whole world, a level range, chosen regions or single monsters, from one config file. Raid bosses, minions, instances and quest spawns are left alone. |

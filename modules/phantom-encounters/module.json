@@ -1,0 +1,10 @@
+{
+  "id": "phantom-encounters",
+  "name": "Phantom Encounters",
+  "version": "1.5.2",
+  "apiVersion": "1",
+  "entrypoint": "modules.phantomencounters.PhantomEncountersModule",
+  "description": "PvP danger: phantoms occasionally come for you in the field and fight you once. Five kinds from a wimp that asks if you are a bot to the AssMuncher, each with its own timer, strength and adena reward. Optional Contested Farming Zones: kills in popular hunting grounds can bring a phantom who claims the spot.",
+  "author": "sateriok",
+  "priority": 100
+}
