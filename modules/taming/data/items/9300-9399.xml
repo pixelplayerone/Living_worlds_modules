@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../data/xsd/items.xsd">
+	<!--
+		Beast Collar taming items.
+
+		displayId is the client-facing item identity, and this is an untouched
+		Interlude client, so each one borrows a real client item record that has a
+		suitable shape and icon. The logical names below are what the passport
+		and the shop show, so a player never sees the borrowed name.
+
+		9302 is the only item the server hands out by itself: it is created on a
+		successful capture and is that pet's control item, exactly like a normal
+		pet's collar. It cannot be traded, dropped, sold or given away, because
+		the pet is bound to it.
+
+		There are deliberately no technique tokens here. They were tried and do
+		not work, for two independent reasons worth recording so nobody tries a
+		third time.
+
+		1. A pet's own inventory packet, PetItemList, has no displayId field. It
+		   writes the raw item id, so the client resolves that id against its own
+		   table; an id of ours draws a black icon with no use action. (The player
+		   inventory packet does honour displayId, which is why the items above can
+		   borrow one.) So a token has to BE an id the client already knows.
+
+		2. A module item file cannot override a stock item id in this build, so
+		   borrowing one is not enough either. ItemData parses base files and
+		   module files into one ConcurrentHashMap.newKeySet(), and ItemTemplate
+		   defines neither equals nor hashCode - so it keys on identity. Both the
+		   stock template and ours survive as separate entries and the final
+		   _etcItems.put(id, template) pass lets the stock one win. A module
+		   definition of 4411 is silently ignored. Reproduced against ItemData's
+		   own merge order; this is not a load-order guess.
+
+		Tame skills therefore live on the pet skill bar instead, which needs no
+		item at all - see TameSkillBar for how the core reads them off the pet's
+		own NPC template.
+	-->
+
+	<!-- Reagent for ordinary monsters. Using it on a wild creature fires Beast Binding. -->
+	<item id="9300" type="EtcItem" name="Broken Beast Flute">
+		<set name="icon" val="icon.etc_flute_i00"/>
+		<set name="displayId" val="1770"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="POTION"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="STEEL"/>
+		<set name="weight" val="20"/>
+		<set name="price" val="5000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="true"/>
+		<set name="is_dropable" val="true"/>
+		<set name="is_sellable" val="true"/>
+		<set name="is_depositable" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<skills>
+			<skill id="9300" level="1"/>
+		</skills>
+	</item>
+
+	<!-- Reagent for raid monsters. -->
+	<item id="9301" type="EtcItem" name="Ancient Beast Bugle">
+		<set name="icon" val="icon.item_normal24"/>
+		<set name="displayId" val="697"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="POTION"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="STEEL"/>
+		<set name="weight" val="20"/>
+		<set name="price" val="50000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="true"/>
+		<set name="is_dropable" val="true"/>
+		<set name="is_sellable" val="true"/>
+		<set name="is_depositable" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<skills>
+			<skill id="9300" level="1"/>
+		</skills>
+	</item>
+
+	<!--
+		The control item, and the collar a worn beast answers to.
+
+		9302 is the item id the server creates on a successful capture and the one
+		stock pet code requires: PetDataTable looks a pet up BY ITEM ID, so the
+		control item has to be an id the core's own pet table knows, which a module
+		item id is not. So this borrows 118's item record - the one this module has
+		always used for the control item, and the one the client is known to draw.
+		That constraint is why the module's collar is not really its own item.
+
+		'worn' is the one value in this file the core has no meaning for. Stock
+		PET_COLLAR items have no worn state at all - a pet is either summoned or it
+		is not, and there is no slot, appearance or equipment effect attached to
+		wearing one. So the core is never told about it: the flag lives in this
+		module's own row on the profile, and it decides which collar a recall brings
+		back and which beasts are restored on login.
+
+		It is read here only so the server knows the flag exists on the item. Setting
+		it would be meaningless - ItemTemplate has no 'worn' set - and a set name the
+		template does not recognise is dropped at load with a warning, so it is left
+		out on purpose. See TameWearState for the state itself.
+	-->
+	<item id="9302" type="EtcItem" name="Tamed Beast Collar">
+		<set name="icon" val="icon.etc_old_key_i02"/>
+		<!--
+			DO NOT REMOVE THIS. It is what makes the collar exist as far as the client
+			is concerned.
+
+			It was removed once, on the reasoning that no stock PET_COLLAR carries a
+			displayId and so it must be redundant. That reasoning was wrong and it cost
+			every collar in the game its place in the inventory. The collars were still
+			created, still written to the database, and .tameprofile still listed the
+			beast - but not one of them appeared in the player's bag, because without
+			this the client has nothing to draw 9302 as.
+
+			Stock item 118 ("Necklace of Magic") is a real item the client certainly
+			knows how to render, so pointing at it is what gives a module item id an
+			identity the client will accept. "No stock collar does this" is not the
+			argument - no stock collar IS a module item, which is the entire situation
+			this line exists to solve.
+		-->
+		<set name="displayId" val="118"/>
+		<set name="etcitem_type" val="PET_COLLAR"/>
+		<set name="default_action" val="SKILL_MAINTAIN"/>
+		<set name="material" val="STEEL"/>
+		<set name="weight" val="10"/>
+		<set name="price" val="1"/>
+		<set name="is_stackable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="handler" val="DynamicPetSummon"/>
+		<!--
+			No <skills> block here, and that is deliberate.
+
+			All eleven stock PET_COLLAR items bind skill 2046 "Wolves' Necklace", and
+			this collar used to be the only one without any. That was diagnosed as the
+			black square in the collar's skill GUI, and a <skills><skill id="2046"
+			level="1"/></skills> was added to fix it. The theory was never actually
+			confirmed on screen, and when the collar turned out to be invisible in the
+			inventory, the safe move was to put this item back exactly as it was known
+			to work rather than to keep an unverified edit on the same line.
+
+			The black square is still an open problem. Whatever draws it, it is worth
+			one screenshot and the exact beast, because "the client reserves a skill
+			slot for the collar and has nothing to put in it" is a guess about a
+			client this project does not own, and guessing here has already cost one
+			working feature.
+
+			For the record, and to stop this being "fixed" a third time on a hunch:
+			2046 on this item would be display-only even if it were present, because
+			stock collars cast it only through the SummonItems handler, which extends
+			ItemSkillsTemplate and reads that list. DynamicPetSummon does not read it,
+			it summons the collar's own individual from tamed_pet. So binding 2046
+			cannot make a wrong beast appear - but neither has it been shown to remove
+			anything.
+		-->
+	</item>
+
+	<!--
+		9303 - the reagent store, as an item the player double-clicks.
+
+		WHY AN ITEM AT ALL
+		The obvious choice was Adena: always in the bag, and double-clicking it does
+		nothing at the moment. That does not work, and the reason is worth keeping.
+		Item handlers are reached from the UseItem packet, and the Interlude client
+		does not send UseItem for Adena. Currency is special-cased on the client
+		side, so no packet means no server-side handler no matter what the server
+		data says. It was tried properly - the module redefined item 57 with a
+		handler - and nothing happened in game, so it was removed again rather than
+		left in place redefining the game's currency for a feature that cannot fire.
+
+		The collar is the proof that this approach does work: it is an ordinary
+		EtcItem with a handler, and double-clicking it opens the passport.
+
+		HOW THE LOOKUP WORKS, because it is by NAME and not by item id
+		ItemHandler.registerHandler(h) stores a handler under
+		h.getClass().getSimpleName(). ItemHandler.getHandler(item) looks it up with
+		EtcItem.getHandlerName(), which is the <set name="handler"> value below.
+		So the val here must stay exactly "TameStoreCatalogue", the simple name of
+		the class in scripts/taming.
+
+		UseItem does not consult default_action before calling the handler; it
+		calls it for any EtcItem outside the paperdoll slot range. The sets below
+		are therefore about looks and safety, not about making the click work.
+
+		WHY displayId 1695
+		1695 is stock "Spell Paper", icon etc_piece_of_paper_white_i00 - literally
+		a sheet of paper, which is the look wanted for a catalogue.
+
+		Know what this costs: AbstractItemPacket writes getDisplayId() and NO name
+		string, so the client takes the icon AND the name from the display id. The
+		player will see this item called "Spell Paper" in their bag, not "Taming
+		Catalogue". The same is true of the other module items, which is why the
+		collar borrows 118 and is drawn as a necklace. Changing the name means
+		changing displayId to a stock item whose name reads better; there is no
+		server-side name override for an item.
+	-->
+	<item id="9303" type="EtcItem" name="Taming Catalogue">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="displayId" val="1695" />
+		<set name="material" val="PAPER" />
+		<!--
+			No default_action and no etcitem_type. The collar sets both
+			(default_action SKILL_MAINTAIN, etcitem_type PET_COLLAR) because it is a
+			collar; nothing here needs them, and UseItem ignores default_action for
+			handler dispatch anyway.
+		-->
+		<set name="price" val="0" />
+		<set name="weight" val="0" />
+		<set name="is_stackable" val="false" />
+		<!--
+			Not tradable, not droppable, not sellable, not depositable: this is a
+			permanent permission slip, not loot. It is granted on login and should
+			never leave the owner's bag or be handed to a merchant.
+		-->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="TameStoreCatalogue" />
+	</item>
+
+</list>

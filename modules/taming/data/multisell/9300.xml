@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Reagent list for the taming store window.
+
+	The list id is the FILE NAME. MultisellData.parseDocument reads it with
+	Integer.parseInt(fileName.replaceAll(".xml", "")), so renaming this file
+	renames the list and breaks the store button that opens it.
+
+	THE -1 IN THE <npcs> BLOCK IS THE WHOLE POINT OF THIS FILE
+
+	MultisellData.separateAndSend refuses to send a list to an ordinary player
+	unless ListContainer.isNpcAllowed says otherwise:
+
+	    if (!list.isNpcAllowed(-1) && (npc == null || !list.isNpcAllowed(npc.getId()))) {
+	        if (player.isGM()) { player.sendMessage("... only gm are allowed ..."); }
+	        else { LOGGER.warning(...); return; }          <- ordinary player stops here
+	    }
+
+	isNpcAllowed(-1) is the FIRST test, and -1 is a literal Set.contains(-1).
+	That gives three states:
+
+	    no <npcs> block at all   -> _npcsAllowed is null -> isNpcAllowed(-1) is
+	                               false -> GM only, which is what this module used
+	                               to do and why the window never opened for a player.
+	    <npcs><npc>SOMEID</npc>  -> only that NPC instance may open it.
+	    <npcs><npc>-1</npc>      -> isNpcAllowed(-1) is true, the whole block is
+	                               skipped, and the list is sent to anybody.
+
+	The GM branch does not stop the send either: it writes a message and then falls
+	through. So "only gm are allowed" was never a permission, it was the only branch
+	left after the NPC test failed.
+
+	MultiSellChoose repeats the identical test at purchase time and skips its own
+	npc / objectId / instance / 250-radius checks the same way, so -1 is what lets a
+	purchase actually complete and not just the window open. It only works because
+	PreparedListContainer copies the _npcsAllowed set by reference rather than
+	rebuilding it; if that changed, the window would open and every purchase would
+	fail instead, which is the confusing half-working shape to watch for.
+
+	STATUS: the mechanism was confirmed by reading the core, and then confirmed on a
+	running server. A player with GM status OFF opened list 9300 through the store
+	page and bought from it, so "usable by an ordinary player" is no longer an
+	inference. Keep the -1; it is what made that true. If a purchase is ever refused,
+	this line is the first thing to check.
+
+	There is deliberately no xsi:noNamespaceSchemaLocation on the root element. A
+	relative "../xsd/multisell.xsd" resolves against the MODULE folder, where there
+	is no xsd directory, so the parser logged
+	"cvc-elt.1.a: Cannot find the declaration of element 'list'" on every boot. The
+	attribute is only a hint and nothing here needs it, so it is gone.
+
+	Why this is a multisell and not a merchant buy list: the BuyList packet carries
+	only item id, price and a stock marker, with no display id, so the client draws a
+	module item from its own tables, has never heard of id 9300, and renders a blank
+	row. MultiSellList sends each product's display id, which is why the reagents
+	show their real borrowed icons here and in the bag.
+
+	PRICES ARE HELD IN TWO PLACES ON PURPOSE
+	NormalTamingPrice and RaidTamingPrice in config/module.ini charge the store's
+	own buttons; these two rows charge the window. TamingData.verifyMultisellPrices
+	compares them at startup and logs a warning naming the row if they drift, so a
+	price changed in one file and not the other is reported rather than quietly
+	selling at whichever is cheaper.
+-->
+<list>
+	<npcs>
+		<!-- See above. Do not replace this with a real npc id and do not delete it. -->
+		<npc>-1</npc>
+	</npcs>
+	<item>
+		<!-- 10,000 Adena -> Broken Beast Flute -->
+		<ingredient count="10000" id="57" />
+		<production count="1" id="9300" />
+	</item>
+	<item>
+		<!-- 250,000 Adena -> Ancient Beast Bugle -->
+		<ingredient count="250000" id="57" />
+		<production count="1" id="9301" />
+	</item>
+</list>

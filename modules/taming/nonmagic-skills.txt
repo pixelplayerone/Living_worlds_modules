@@ -1,0 +1,1891 @@
+# Base game skills with isMagic = false - no casting animation on a tame.
+# 1887 of 2682 named skills (795 are magic-type, excluded).
+# Fields: id  name  level  targetType  hitTime
+
+     1  Triple Slash                                    lvl 37   ONE       hit 1733ms
+     3  Power Strike                                    lvl 9    ONE       hit 1080ms
+     4  Dash                                            lvl 2    SELF      hit 1000ms
+     5  Double Sonic Slash                              lvl 31   ONE       hit 1733ms
+     6  Sonic Blaster                                   lvl 37   ONE       hit 1900ms
+     7  Sonic Storm                                     lvl 28   AREA      hit 1900ms
+     8  Sonic Focus                                     lvl 7    SELF      hit 900ms
+     9  Sonic Buster                                    lvl 34   FRONT_AREA  hit 720ms
+    11  Trick                                           lvl 12   ONE       hit 1200ms
+    12  Switch                                          lvl 14   ONE       hit 1200ms
+    13  Summon Siege Golem                              lvl 1    SELF      hit 300000ms
+    16  Mortal Blow                                     lvl 24   ONE       hit 1080ms
+    17  Force Burst                                     lvl 34   FRONT_AREA  hit 783ms
+    18  Aura of Hate                                    lvl 37   AURA      hit 1200ms
+    19  Double Shot                                     lvl 37   ONE       hit 3000ms
+    24  Burst Shot                                      lvl 31   AREA      hit 3200ms
+    25  Summon Mechanic Golem                           lvl 9    SELF      hit 15000ms
+    27  Unlock                                          lvl 14   UNLOCKABLE  hit 2500ms
+    28  Aggression                                      lvl 49   ONE       hit 1000ms
+    29  Iron Punch                                      lvl 24   ONE       hit 1600ms
+    30  Backstab                                        lvl 37   ONE       hit 1080ms
+    34  Bandage                                         lvl 3    SELF      hit 1500ms
+    35  Force Storm                                     lvl 28   AREA      hit 2000ms
+    36  Whirlwind                                       lvl 37   AURA      hit 1067ms
+    42  Sweeper                                         lvl 1    CORPSE_MOB  hit 500ms
+    48  Thunder Storm                                   lvl 37   AURA      hit 1080ms
+    50  Focused Force                                   lvl 7    SELF      hit 900ms
+    51  Lure                                            lvl 1    ONE       hit 1500ms
+    54  Force Blaster                                   lvl 49   ONE       hit 1900ms
+    56  Power Shot                                      lvl 24   ONE       hit 3200ms
+    60  Fake Death                                      lvl 1    SELF      hit 0ms
+    75  Detect Insect Weakness                          lvl 1    SELF      hit 1500ms
+    76  Bear Spirit Totem                               lvl 1    SELF      hit 2000ms
+    78  War Cry                                         lvl 2    SELF      hit 1500ms
+    80  Detect Beast Weakness                           lvl 1    SELF      hit 1500ms
+    81  Punch of Doom                                   lvl 3    ONE       hit 1360ms
+    82  Majesty                                         lvl 3    SELF      hit 1500ms
+    83  Wolf Spirit Totem                               lvl 1    SELF      hit 2000ms
+    84  Poison Blade Dance                              lvl 3    AURA      hit 1833ms
+    87  Detect Animal Weakness                          lvl 1    SELF      hit 1500ms
+    88  Detect Dragon Weakness                          lvl 1    SELF      hit 1500ms
+    92  Shield Stun                                     lvl 52   ONE       hit 1200ms
+    94  Rage                                            lvl 2    SELF      hit 1500ms
+    95  Cripple                                         lvl 20   ONE       hit 1604ms
+    96  Bleed                                           lvl 6    ONE       hit 1080ms
+    97  Sanctuary                                       lvl 11   AREA      hit 1500ms
+    98  Sword Symphony                                  lvl 5    ONE       hit 2000ms
+    99  Rapid Shot                                      lvl 2    SELF      hit 1500ms
+   100  Stun Attack                                     lvl 15   ONE       hit 1080ms
+   101  Stunning Shot                                   lvl 40   ONE       hit 3000ms
+   104  Detect Plant Weakness                           lvl 1    SELF      hit 1500ms
+   106  Veil                                            lvl 14   ONE       hit 1200ms
+   107  Holy Aura                                       lvl 9    AREA      hit 2000ms
+   109  Ogre Spirit Totem                               lvl 1    SELF      hit 2000ms
+   110  Ultimate Defense                                lvl 2    SELF      hit 1000ms
+   111  Ultimate Evasion                                lvl 2    SELF      hit 1000ms
+   112  Deflect Arrow                                   lvl 4    SELF      hit 1500ms
+   113  Long Shot                                       lvl 2    SELF      hit 0ms
+   116  Howl                                            lvl 14   AURA      hit 1200ms
+   118  Magician's Movement                             lvl 1    SELF      hit 0ms
+   120  Stunning Fist                                   lvl 15   ONE       hit 1604ms
+   121  Battle Roar                                     lvl 6    SELF      hit 1500ms
+   130  Thrill Fight                                    lvl 2    SELF      hit 1500ms
+   131  Hawk Eye                                        lvl 3    SELF      hit 1500ms
+   134  Toughness                                       lvl 1    SELF      hit 0ms
+   137  Critical Chance                                 lvl 3    SELF      hit 0ms
+   139  Guts                                            lvl 3    SELF      hit 1500ms
+   141  Weapon Mastery                                  lvl 3    SELF      hit 0ms
+   142  Armor Mastery                                   lvl 5    SELF      hit 0ms
+   143  Cubic Mastery                                   lvl 2    SELF      hit 0ms
+   144  Dual Weapon Mastery                             lvl 37   SELF      hit 0ms
+   146  Anti Magic                                      lvl 45   SELF      hit 0ms
+   147  Magic Resistance                                lvl 51   SELF      hit 0ms
+   148  Vital Force                                     lvl 8    SELF      hit 0ms
+   150  Weight Limit                                    lvl 3    SELF      hit 0ms
+   153  Shield Mastery                                  lvl 4    SELF      hit 0ms
+   163  Spellcraft                                      lvl 1    SELF      hit 0ms
+   164  Quick Recovery                                  lvl 3    SELF      hit 0ms
+   165  Trade                                           lvl 5    SELF      hit 0ms
+   168  Boost Attack Speed                              lvl 3    SELF      hit 0ms
+   169  Quick Step                                      lvl 2    SELF      hit 0ms
+   171  Esprit                                          lvl 8    SELF      hit 0ms
+   172  Create Item                                     lvl 9    SELF      hit 0ms
+   173  Acrobatics                                      lvl 2    SELF      hit 0ms
+   176  Frenzy                                          lvl 3    SELF      hit 1500ms
+   181  Revival                                         lvl 1    SELF      hit 1500ms
+   190  Fatal Strike                                    lvl 37   ONE       hit 1080ms
+   191  Focus Mind                                      lvl 6    SELF      hit 0ms
+   193  Critical Power                                  lvl 6    SELF      hit 0ms
+   194  Lucky                                           lvl 1    SELF      hit 0ms
+   195  Breath Boost                                    lvl 2    SELF      hit 0ms
+   196  Holy Blade                                      lvl 1    SELF      hit 0ms
+   197  Holy Armor                                      lvl 2    SELF      hit 0ms
+   198  Boost Evasion                                   lvl 3    SELF      hit 0ms
+   205  Blunt Mastery                                   lvl 45   SELF      hit 0ms
+   208  Bow Mastery                                     lvl 52   SELF      hit 0ms
+   209  Dagger Mastery                                  lvl 45   SELF      hit 0ms
+   210  Fist Mastery                                    lvl 45   SELF      hit 0ms
+   211  Boost HP                                        lvl 10   SELF      hit 0ms
+   212  Fast HP Recovery                                lvl 8    SELF      hit 0ms
+   213  Boost Mana                                      lvl 8    SELF      hit 0ms
+   214  Mana Recovery                                   lvl 1    SELF      hit 0ms
+   216  Polearm Mastery                                 lvl 45   SELF      hit 0ms
+   217  Sword Blunt Mastery                             lvl 45   SELF      hit 0ms
+   221  Silent Move                                     lvl 1    SELF      hit 0ms
+   222  Fist Fury                                       lvl 1    SELF      hit 0ms
+   223  Sting                                           lvl 49   ONE       hit 1080ms
+   225  Acrobatic Move                                  lvl 3    SELF      hit 0ms
+   226  Relax                                           lvl 1    SELF      hit 0ms
+   227  Light Armor Mastery                             lvl 50   SELF      hit 0ms
+   228  Fast Spell Casting                              lvl 3    SELF      hit 0ms
+   229  Fast Mana Recovery                              lvl 7    SELF      hit 0ms
+   231  Heavy Armor Mastery                             lvl 50   SELF      hit 0ms
+   232  Heavy Armor Mastery                             lvl 52   SELF      hit 0ms
+   233  Light Armor Mastery                             lvl 47   SELF      hit 0ms
+   234  Robe Mastery                                    lvl 41   SELF      hit 0ms
+   235  Robe Mastery                                    lvl 41   SELF      hit 0ms
+   236  Light Armor Mastery                             lvl 41   SELF      hit 0ms
+   239  Expertise D                                     lvl 5    SELF      hit 0ms
+   244  Armor Mastery                                   lvl 3    SELF      hit 0ms
+   245  Wild Sweep                                      lvl 15   FRONT_AREA  hit 1080ms
+   246  Seal of Ruler                                   lvl 1    HOLY      hit 180000ms
+   247  Build Headquarters                              lvl 1    SELF      hit 4000ms
+   248  Crystallize                                     lvl 5    SELF      hit 0ms
+   249  Weapon Mastery                                  lvl 42   SELF      hit 0ms
+   250  Weapon Mastery                                  lvl 42   SELF      hit 0ms
+   251  Robe Mastery                                    lvl 45   SELF      hit 0ms
+   252  Light Armor Mastery                             lvl 45   SELF      hit 0ms
+   253  Heavy Armor Mastery                             lvl 43   SELF      hit 0ms
+   254  Spoil                                           lvl 11   ONE       hit 1800ms
+   255  Power Smash                                     lvl 15   ONE       hit 1080ms
+   256  Accuracy                                        lvl 1    SELF      hit 0ms
+   257  Sword Blunt Mastery                             lvl 45   SELF      hit 0ms
+   258  Light Armor Mastery                             lvl 33   SELF      hit 0ms
+   259  Heavy Armor Mastery                             lvl 33   SELF      hit 0ms
+   260  Hammer Crush                                    lvl 37   ONE       hit 1080ms
+   261  Triple Sonic Slash                              lvl 22   ONE       hit 1667ms
+   263  Deadly Blow                                     lvl 37   ONE       hit 1080ms
+   264  Song of Earth                                   lvl 1    PARTY     hit 2500ms
+   265  Song of Life                                    lvl 1    PARTY     hit 2500ms
+   266  Song of Water                                   lvl 1    PARTY     hit 2500ms
+   267  Song of Warding                                 lvl 1    PARTY     hit 2500ms
+   268  Song of Wind                                    lvl 1    PARTY     hit 2500ms
+   269  Song of Hunter                                  lvl 1    PARTY     hit 2500ms
+   270  Song of Invocation                              lvl 1    PARTY     hit 2500ms
+   271  Dance of the Warrior                            lvl 1    PARTY     hit 2500ms
+   272  Dance of Inspiration                            lvl 1    PARTY     hit 2500ms
+   273  Dance of the Mystic                             lvl 1    PARTY     hit 2500ms
+   274  Dance of Fire                                   lvl 1    PARTY     hit 2500ms
+   275  Dance of Fury                                   lvl 1    PARTY     hit 2500ms
+   276  Dance of Concentration                          lvl 1    PARTY     hit 2500ms
+   277  Dance of Light                                  lvl 1    PARTY     hit 2500ms
+   280  Burning Fist                                    lvl 37   ONE       hit 1900ms
+   281  Soul Breaker                                    lvl 37   ONE       hit 1409ms
+   282  Puma Spirit Totem                               lvl 1    SELF      hit 2000ms
+   284  Hurricane Assault                               lvl 40   ONE       hit 1360ms
+   285  Higher Mana Gain                                lvl 27   SELF      hit 0ms
+   286  Provoke                                         lvl 3    AURA      hit 1500ms
+   287  Lionheart                                       lvl 3    SELF      hit 1500ms
+   288  Guard Stance                                    lvl 4    SELF      hit 0ms
+   290  Final Frenzy                                    lvl 14   SELF      hit 0ms
+   291  Final Fortress                                  lvl 11   SELF      hit 0ms
+   292  Bison Spirit Totem                              lvl 1    SELF      hit 1500ms
+   293  Two-handed Weapon Mastery                       lvl 20   SELF      hit 0ms
+   294  Shadow Sense                                    lvl 1    SELF      hit 0ms
+   295  Iron Body                                       lvl 1    SELF      hit 0ms
+   296  Chameleon Rest                                  lvl 1    SELF      hit 0ms
+   297  Duelist Spirit                                  lvl 2    SELF      hit 1500ms
+   298  Rabbit Spirit Totem                             lvl 1    SELF      hit 2000ms
+   299  Summon Wild Hog Cannon                          lvl 1    SELF      hit 300000ms
+   301  Summon Big Boom                                 lvl 5    SELF      hit 6000ms
+   302  Spoil Festival                                  lvl 9    AREA      hit 1800ms
+   303  Soul of Sagittarius                             lvl 4    SELF      hit 2000ms
+   304  Song of Vitality                                lvl 1    PARTY     hit 2500ms
+   305  Song of Vengeance                               lvl 1    PARTY     hit 2500ms
+   306  Song of Flame Guard                             lvl 1    PARTY     hit 2500ms
+   307  Dance of Aqua Guard                             lvl 1    PARTY     hit 2500ms
+   308  Song of Storm Guard                             lvl 1    PARTY     hit 2500ms
+   309  Dance of Earth Guard                            lvl 1    PARTY     hit 2500ms
+   310  Dance of the Vampire                            lvl 1    PARTY     hit 2500ms
+   311  Dance of Protection                             lvl 1    PARTY     hit 2500ms
+   312  Vicious Stance                                  lvl 20   SELF      hit 0ms
+   313  Snipe                                           lvl 8    SELF      hit 2000ms
+   314  Fatal Counter                                   lvl 16   ONE       hit 3000ms
+   315  Crush of Doom                                   lvl 16   ONE       hit 1620ms
+   316  Aegis                                           lvl 1    SELF      hit 0ms
+   317  Focus Attack                                    lvl 5    SELF      hit 2000ms
+   318  Aegis Stance                                    lvl 1    SELF      hit 0ms
+   319  Agile Movement                                  lvl 2    SELF      hit 0ms
+   320  Wrath                                           lvl 10   FRONT_AREA  hit 1080ms
+   321  Blinding Blow                                   lvl 10   ONE       hit 1080ms
+   322  Shield Fortress                                 lvl 6    SELF      hit 0ms
+   325  Strider Siege Assault                           lvl 1    ONE       hit 1080ms
+   326  Build Advanced Headquarters                     lvl 1    SELF      hit 4000ms
+   327  Wyvern Aegis                                    lvl 1    SELF      hit 1000ms
+   328  Wisdom                                          lvl 1    SELF      hit 0ms
+   329  Health                                          lvl 1    SELF      hit 0ms
+   330  Skill Mastery                                   lvl 1    SELF      hit 0ms
+   331  Skill Mastery                                   lvl 1    SELF      hit 0ms
+   332  Extra Inventory                                 lvl 1    SELF      hit 0ms
+   333  Extra Sales Slots                               lvl 1    SELF      hit 0ms
+   334  Focus Skill Mastery                             lvl 1    SELF      hit 0ms
+   335  Fortitude                                       lvl 1    SELF      hit 0ms
+   336  Arcane Wisdom                                   lvl 1    SELF      hit 0ms
+   337  Arcane Power                                    lvl 1    SELF      hit 0ms
+   338  Arcane Agility                                  lvl 1    SELF      hit 0ms
+   339  Parry Stance                                    lvl 1    SELF      hit 0ms
+   340  Riposte Stance                                  lvl 1    SELF      hit 0ms
+   341  Touch of Life                                   lvl 1    ONE       hit 1800ms
+   342  Touch of Death                                  lvl 1    ONE       hit 1800ms
+   343  Lethal Shot                                     lvl 1    ONE       hit 4000ms
+   344  Lethal Blow                                     lvl 1    ONE       hit 1800ms
+   345  Sonic Rage                                      lvl 1    ONE       hit 1500ms
+   346  Raging Force                                    lvl 1    ONE       hit 1500ms
+   347  Earthquake                                      lvl 1    AURA      hit 1800ms
+   348  Spoil Crush                                     lvl 1    ONE       hit 1800ms
+   349  Song of Renewal                                 lvl 1    PARTY     hit 2500ms
+   350  Physical Mirror                                 lvl 1    SELF      hit 2000ms
+   351  Magical Mirror                                  lvl 1    SELF      hit 2000ms
+   352  Shield Bash                                     lvl 1    ONE       hit 1000ms
+   353  Shield Slam                                     lvl 1    ONE       hit 2000ms
+   354  Hamstring Shot                                  lvl 1    ONE       hit 4000ms
+   355  Focus Death                                     lvl 1    SELF      hit 2000ms
+   356  Focus Chance                                    lvl 1    SELF      hit 2000ms
+   357  Focus Power                                     lvl 1    SELF      hit 2000ms
+   358  Bluff                                           lvl 1    ONE       hit 1000ms
+   359  Eye of Hunter                                   lvl 1    SELF      hit 2000ms
+   360  Eye of Slayer                                   lvl 1    SELF      hit 2000ms
+   361  Shock Blast                                     lvl 1    AREA      hit 4000ms
+   362  Armor Crush                                     lvl 1    ONE       hit 2000ms
+   363  Song of Meditation                              lvl 1    PARTY     hit 2500ms
+   364  Song of Champion                                lvl 1    PARTY     hit 2500ms
+   365  Siren's Dance                                   lvl 1    PARTY     hit 2500ms
+   366  Dance of Shadows                                lvl 1    PARTY     hit 2500ms
+   367  Dance of Medusa                                 lvl 1    AURA      hit 2000ms
+   368  Vengeance                                       lvl 1    AURA      hit 1000ms
+   369  Evade Shot                                      lvl 1    ONE       hit 4000ms
+   370  Clan Vitality                                   lvl 3    SELF      hit 0ms
+   371  Clan Spirituality                               lvl 3    SELF      hit 0ms
+   372  Clan Essence                                    lvl 3    SELF      hit 0ms
+   373  Clan Lifeblood                                  lvl 3    SELF      hit 0ms
+   374  Clan Morale                                     lvl 3    SELF      hit 0ms
+   375  Clan Clarity                                    lvl 3    SELF      hit 0ms
+   376  Clan Might                                      lvl 3    SELF      hit 0ms
+   377  Clan Aegis                                      lvl 3    SELF      hit 0ms
+   378  Clan Empowerment                                lvl 3    SELF      hit 0ms
+   379  Clan Magic Protection                           lvl 3    SELF      hit 0ms
+   380  Clan Guidance                                   lvl 3    SELF      hit 0ms
+   381  Clan Agility                                    lvl 3    SELF      hit 0ms
+   382  Clan Withstand-Attack                           lvl 3    SELF      hit 0ms
+   383  Clan Shield Boost                               lvl 3    SELF      hit 0ms
+   384  Clan Cyclonic Resistance                        lvl 3    SELF      hit 0ms
+   385  Clan Magmatic Resistance                        lvl 3    SELF      hit 0ms
+   386  Clan Fortitude                                  lvl 3    SELF      hit 0ms
+   387  Clan Freedom                                    lvl 3    SELF      hit 0ms
+   388  Clan Vigilance                                  lvl 3    SELF      hit 0ms
+   389  Clan March                                      lvl 3    SELF      hit 0ms
+   390  Clan Luck                                       lvl 3    SELF      hit 0ms
+   391  Clan Imperium                                   lvl 1    SELF      hit 0ms
+   395  Heroic Miracle                                  lvl 1    SELF      hit 1000ms
+   396  Heroic Berserker                                lvl 1    SELF      hit 1000ms
+   400  Tribunal                                        lvl 10   ONE       hit 1300ms
+   401  Judgment                                        lvl 10   ONE       hit 1300ms
+   402  Arrest                                          lvl 10   ONE       hit 2000ms
+   403  Shackle                                         lvl 10   ONE       hit 2000ms
+   404  Mass Shackling                                  lvl 5    AURA      hit 3000ms
+   405  Banish Undead                                   lvl 10   ONE       hit 2000ms
+   406  Angelic Icon                                    lvl 3    SELF      hit 2000ms
+   407  Psycho Symphony                                 lvl 10   AURA      hit 3000ms
+   408  Demonic Blade Dance                             lvl 10   AURA      hit 3000ms
+   409  Critical Blow                                   lvl 10   ONE       hit 1300ms
+   410  Mortal Strike                                   lvl 3    SELF      hit 2000ms
+   411  Stealth                                         lvl 3    SELF      hit 2000ms
+   412  Sand Bomb                                       lvl 10   ONE       hit 2000ms
+   413  Rapid Fire                                      lvl 8    SELF      hit 2000ms
+   414  Dead Eye                                        lvl 8    SELF      hit 2000ms
+   415  Spirit of Sagittarius                           lvl 3    SELF      hit 2000ms
+   416  Blessing of Sagittarius                         lvl 3    SELF      hit 2000ms
+   417  Pain of Sagittarius                             lvl 5    SELF      hit 2000ms
+   418  Quiver of Holding                               lvl 3    SELF      hit 0ms
+   419  Summon Treasure Key                             lvl 4    SELF      hit 3000ms
+   420  Zealot                                          lvl 3    SELF      hit 2000ms
+   421  Fell Swoop                                      lvl 5    SELF      hit 2000ms
+   422  Polearm Accuracy                                lvl 3    SELF      hit 0ms
+   423  Infernal Form                                   lvl 3    SELF      hit 2000ms
+   424  War Frenzy                                      lvl 3    SELF      hit 0ms
+   425  Hawk Spirit Totem                               lvl 1    SELF      hit 2000ms
+   426  Battle Force                                    lvl 1    PARTY_NOTME  hit 15000ms
+   427  Spell Force                                     lvl 1    PARTY_NOTME  hit 15000ms
+   428  Inner Rhythm                                    lvl 1    SELF      hit 0ms
+   429  Knighthood                                      lvl 1    SELF      hit 0ms
+   430  Master of Combat                                lvl 1    SELF      hit 0ms
+   431  Archery                                         lvl 1    SELF      hit 0ms
+   432  Assassination                                   lvl 1    SELF      hit 0ms
+   433  Arcane Roar                                     lvl 1    SELF      hit 0ms
+   434  Necromancy                                      lvl 1    SELF      hit 0ms
+   435  Summon Lore                                     lvl 1    SELF      hit 0ms
+   436  Divine Lore                                     lvl 1    SELF      hit 0ms
+   437  Song of Silence                                 lvl 1    AURA      hit 2500ms
+   439  Shield of Revenge                               lvl 1    SELF      hit 4000ms
+   440  Braveheart                                      lvl 1    SELF      hit 1500ms
+   441  Force Meditation                                lvl 1    SELF      hit 2000ms
+   442  Sonic Barrier                                   lvl 1    SELF      hit 2000ms
+   443  Force Barrier                                   lvl 1    SELF      hit 2000ms
+   444  Festive Sweeper                                 lvl 1    AURA_CORPSE_MOB  hit 500ms
+   445  Mirage                                          lvl 1    SELF      hit 2000ms
+   446  Dodge                                           lvl 1    SELF      hit 500ms
+   447  Counterattack                                   lvl 1    SELF      hit 500ms
+   448  Summon Swoop Cannon                             lvl 1    SELF      hit 10000ms
+   450  Banish Seraph                                   lvl 10   ONE       hit 4000ms
+   451  Sonic Move                                      lvl 2    SELF      hit 1000ms
+   452  Shock Stomp                                     lvl 5    AURA      hit 500ms
+   453  Escape Shackle                                  lvl 1    SELF      hit 4000ms
+   454  Symbol of Defense                               lvl 1    SELF      hit 5000ms
+   455  Symbol of Noise                                 lvl 1    GROUND    hit 5000ms
+   456  Symbol of Resistance                            lvl 1    SELF      hit 5000ms
+   457  Symbol of Honor                                 lvl 1    SELF      hit 5000ms
+   458  Symbol of Energy                                lvl 1    SELF      hit 5000ms
+   459  Symbol of the Sniper                            lvl 1    SELF      hit 5000ms
+   460  Symbol of the Assassin                          lvl 1    SELF      hit 5000ms
+   461  Break Duress                                    lvl 2    SELF      hit 3000ms
+  1001  Soul Cry                                        lvl 10   SELF      hit 0ms
+  1262  Transfer Pain                                   lvl 5    SELF      hit 0ms
+  1283  Soul Guard                                      lvl 13   SELF      hit 0ms
+  1297  Clear Mind                                      lvl 6    SELF      hit 0ms
+  1312  Fishing                                         lvl 1    SELF      hit 0ms
+  1313  Pumping                                         lvl 27   SELF      hit 0ms
+  1314  Reeling                                         lvl 27   SELF      hit 0ms
+  1315  Fishing Expertise                               lvl 27   SELF      hit 0ms
+  1316  Fishing Expertise -C-Grade                      lvl 1    SELF      hit 0ms
+  1317  Fishing Expertise -B-Grade                      lvl 1    SELF      hit 0ms
+  1318  Fishing Expertise -A-Grade                      lvl 1    SELF      hit 0ms
+  1319  Fishing Expertise -S-Grade                      lvl 1    SELF      hit 0ms
+  1320  Create Common Item                              lvl 9    SELF      hit 0ms
+  1321  Dwarven Craft                                   lvl 1    SELF      hit 0ms
+  1322  Common Craft                                    lvl 1    SELF      hit 0ms
+  1368  Expand Dwarven Craft                            lvl 8    SELF      hit 0ms
+  1369  Expand Common Craft                             lvl 8    SELF      hit 0ms
+  1370  Expand Trade                                    lvl 8    SELF      hit 0ms
+  1371  Expand Storage                                  lvl 8    SELF      hit 0ms
+  1372  Expand Inventory                                lvl 8    SELF      hit 0ms
+  1373  Strider Mastery                                 lvl 1    SELF      hit 0ms
+  1405  Divine Inspiration                              lvl 4    SELF      hit 0ms
+  2001  Red Potion                                      lvl 1    SELF      hit 0ms
+  2002  Healing Drug                                    lvl 1    SELF      hit 0ms
+  2003  Squash Seed                                     lvl 1    SELF      hit 1500ms
+  2004  Large Squash Seed                               lvl 1    SELF      hit 1500ms
+  2005  Pollen                                          lvl 1    ONE       hit 0ms
+  2006  Scroll: Enchant Weapon (Grade A)                lvl 1    SELF      hit 0ms
+  2007  Scroll: Enchant Armor (Grade A)                 lvl 1    SELF      hit 0ms
+  2008  Item - Beast Spirit Shot                        lvl 1    SELF      hit 0ms
+  2009  Item - Beast Blessed Spirit Shot                lvl 1    SELF      hit 0ms
+  2010  Endeavor Potion                                 lvl 1    SELF      hit 0ms
+  2011  Haste Potion                                    lvl 1    SELF      hit 0ms
+  2012  Potion of Alacrity                              lvl 1    SELF      hit 0ms
+  2013  Scroll of Escape                                lvl 1    SELF      hit 20000ms
+  2014  Scroll of Resurrection                          lvl 1    PC_BODY   hit 15000ms
+  2015  Scroll: Enchant Weapon (Grade B)                lvl 1    SELF      hit 0ms
+  2016  Scroll: Enchant Armor (Grade B)                 lvl 1    SELF      hit 0ms
+  2017  Scroll: Enchant Weapon (Grade C)                lvl 1    SELF      hit 0ms
+  2018  Scroll: Enchant Armor (Grade C)                 lvl 1    SELF      hit 0ms
+  2019  Scroll: Enchant Weapon (Grade D)                lvl 1    SELF      hit 0ms
+  2020  Scroll: Enchant Armor (Grade D)                 lvl 1    SELF      hit 0ms
+  2021  Scroll: Enchant Weapon (Grade S)                lvl 1    SELF      hit 0ms
+  2022  Scroll: Enchant Armor (Grade S)                 lvl 1    SELF      hit 0ms
+  2023  Elven Firework                                  lvl 1    SELF      hit 0ms
+  2024  Firework                                        lvl 1    SELF      hit 0ms
+  2025  Large Firework                                  lvl 1    SELF      hit 0ms
+  2026  Scroll: Enchant Weapon (Grade S)                lvl 1    SELF      hit 0ms
+  2027  Scroll: Enchant Weapon (Grade A)                lvl 1    SELF      hit 0ms
+  2028  Scroll: Enchant Weapon (Grade B)                lvl 1    SELF      hit 0ms
+  2029  Scroll: Enchant Weapon (Grade C)                lvl 1    SELF      hit 0ms
+  2030  Scroll: Enchant Weapon (Grade D)                lvl 1    SELF      hit 0ms
+  2031  Lesser Healing Potion                           lvl 1    SELF      hit 0ms
+  2032  Healing Potion                                  lvl 1    SELF      hit 0ms
+  2033  Item - Beast Soul Shot                          lvl 1    SELF      hit 0ms
+  2034  Greater Haste Potion                            lvl 1    SELF      hit 0ms
+  2035  Greater Swift Attack Potion                     lvl 1    SELF      hit 0ms
+  2036  Blessed Scroll of Escape                        lvl 2    SELF      hit 200ms
+  2037  Greater Healing Potion                          lvl 1    SELF      hit 0ms
+  2038  Quick Healing Potion                            lvl 1    SELF      hit 0ms
+  2039  Soulshot: No Grade                              lvl 1    SELF      hit 0ms
+  2040  Scroll of Escape: Clan Hall                     lvl 1    SELF      hit 20000ms
+  2041  Scroll of Escape: Castle                        lvl 1    SELF      hit 20000ms
+  2042  Antidote                                        lvl 1    SELF      hit 0ms
+  2043  Greater Antidote                                lvl 1    SELF      hit 0ms
+  2044  Bandage                                         lvl 1    SELF      hit 0ms
+  2045  Emergency Dressing                              lvl 1    SELF      hit 0ms
+  2046  Wolves' Necklace                                lvl 1    SELF      hit 5000ms
+  2047  Spiritshot: No Grade                            lvl 1    SELF      hit 0ms
+  2048  Wolves' Food                                    lvl 1    SELF      hit 0ms
+  2049  Blessed Scroll of Resurrection                  lvl 1    PC_BODY   hit 3000ms
+  2050  Scroll of Guidance                              lvl 1    SELF      hit 4000ms
+  2051  Scroll of Death Whisper                         lvl 1    SELF      hit 4000ms
+  2052  Scroll of Focus                                 lvl 1    SELF      hit 4000ms
+  2053  Scroll of Greater Acumen                        lvl 1    SELF      hit 4000ms
+  2054  Scroll of Haste                                 lvl 1    SELF      hit 4000ms
+  2055  Scroll of Agility                               lvl 1    SELF      hit 4000ms
+  2056  Scroll of Mystic Empower                        lvl 1    SELF      hit 4000ms
+  2057  Scroll of Might                                 lvl 1    SELF      hit 4000ms
+  2058  Scroll of Wind Walk                             lvl 1    SELF      hit 4000ms
+  2059  Scroll of Shield                                lvl 1    SELF      hit 4000ms
+  2060  Healing Medicine                                lvl 1    SELF      hit 0ms
+  2061  Blessed Spiritshot: No Grade                    lvl 1    SELF      hit 0ms
+  2063  Hatchling Food                                  lvl 1    SELF      hit 0ms
+  2064  Scroll of Mana Regeneration                     lvl 1    SELF      hit 4000ms
+  2065  Box Key                                         lvl 8    UNLOCKABLE  hit 500ms
+  2066  Item - Theme Sound Crystal                      lvl 1    SELF      hit 0ms
+  2067  Item - Theme Sound Crystal                      lvl 1    SELF      hit 0ms
+  2068  Item - Race Sound Crystal                       lvl 1    SELF      hit 0ms
+  2069  Item - Race Sound Crystal                       lvl 1    SELF      hit 0ms
+  2070  Item - Race Sound Crystal                       lvl 1    SELF      hit 0ms
+  2071  Item - Race Sound Crystal                       lvl 1    SELF      hit 0ms
+  2072  Item - Race Sound Crystal                       lvl 1    SELF      hit 0ms
+  2073  Item - Theme Sound Crystal                      lvl 1    SELF      hit 0ms
+  2074  Potion of Critical Escape                       lvl 1    AREA      hit 0ms
+  2075  Decrease Hate Scroll                            lvl 1    ONE       hit 0ms
+  2076  Bless of Eva                                    lvl 1    SELF      hit 0ms
+  2077  Potion of Revenge                               lvl 1    SELF      hit 0ms
+  2078  Compressed Package of Soulshots: No Grade       lvl 1    SELF      hit 0ms
+  2079  Compressed Package of Soulshots: D-grade        lvl 1    SELF      hit 0ms
+  2080  Compressed Package of Soulshots: C-grade        lvl 1    SELF      hit 0ms
+  2081  Compressed Package of Soulshots: B-grade        lvl 1    SELF      hit 0ms
+  2082  Compressed Package of Soulshots: A-grade        lvl 1    SELF      hit 0ms
+  2083  Compressed Package of Soulshots: S-grade        lvl 1    SELF      hit 0ms
+  2084  Compressed Package of Spiritshots: No Grade     lvl 1    SELF      hit 0ms
+  2085  Compressed Package of Spiritshots: D-grade      lvl 1    SELF      hit 0ms
+  2086  Compressed Package of Spiritshots: C-grade      lvl 1    SELF      hit 0ms
+  2087  Compressed Package of Spiritshots: B-grade      lvl 1    SELF      hit 0ms
+  2088  Compressed Package of Spiritshots: A-grade      lvl 1    SELF      hit 0ms
+  2089  Compressed Package of Spiritshots: S-grade      lvl 1    SELF      hit 0ms
+  2090  Compressed Package of Blessed Spiritshots: No Grade  lvl 1    SELF      hit 0ms
+  2091  Compressed Package of Blessed Spiritshots: D-grade  lvl 1    SELF      hit 0ms
+  2092  Compressed Package of Blessed Spiritshots: C-grade  lvl 1    SELF      hit 0ms
+  2093  Compressed Package of Blessed Spiritshots: B-grade  lvl 1    SELF      hit 0ms
+  2094  Compressed Package of Blessed Spiritshots: A-grade  lvl 1    SELF      hit 0ms
+  2095  Compressed Package of Blessed Spiritshots: S-grade  lvl 1    SELF      hit 0ms
+  2096  Soul Crystal                                    lvl 1    ONE       hit 1200ms
+  2097  Sowing                                          lvl 3    ONE       hit 1800ms
+  2098  Harvesting                                      lvl 1    CORPSE_MOB  hit 500ms
+  2099  Escape: 5 minutes                               lvl 1    SELF      hit 300000ms
+  2100  Escape: 1 second                                lvl 1    SELF      hit 1000ms
+  2101  Feed: General Strider                           lvl 1    SELF      hit 0ms
+  2102  Feed: Clan Hall Strider                         lvl 1    SELF      hit 0ms
+  2103  Mystery Potion                                  lvl 1    SELF      hit 0ms
+  2104  Greater Compressed Package of Soulshots: No-grade  lvl 1    SELF      hit 0ms
+  2105  Greater Compressed Package of Soulshots: D-grade  lvl 1    SELF      hit 0ms
+  2106  Greater Compressed Package of Soulshots: C-grade  lvl 1    SELF      hit 0ms
+  2107  Greater Compressed Package of Soulshots: B-grade  lvl 1    SELF      hit 0ms
+  2108  Greater Compressed Package of Soulshots: A-grade  lvl 1    SELF      hit 0ms
+  2109  Greater Compressed Package of Soulshots: S-grade  lvl 1    SELF      hit 0ms
+  2110  Greater Compressed Package of Spiritshots: No-grade  lvl 1    SELF      hit 0ms
+  2111  Greater Compressed Package of Spiritshots: D-grade  lvl 1    SELF      hit 0ms
+  2112  Greater Compressed Package of Spiritshots: C-grade  lvl 1    SELF      hit 0ms
+  2113  Greater Compressed Package of Spiritshots: B-grade  lvl 1    SELF      hit 0ms
+  2114  Greater Compressed Package of Spiritshots: A-grade  lvl 1    SELF      hit 0ms
+  2115  Greater Compressed Package of Spiritshots: S-grade  lvl 1    SELF      hit 0ms
+  2116  Greater Compressed Package of Blessed Spiritshots: No-grade  lvl 1    SELF      hit 0ms
+  2117  Greater Compressed Package of Blessed Spiritshots: D-grade  lvl 1    SELF      hit 0ms
+  2118  Greater Compressed Package of Blessed Spiritshots: C-grade  lvl 1    SELF      hit 0ms
+  2119  Greater Compressed Package of Blessed Spiritshots: B-grade  lvl 1    SELF      hit 0ms
+  2120  Greater Compressed Package of Blessed Spiritshots: A-grade  lvl 1    SELF      hit 0ms
+  2121  Greater Compressed Package of Blessed Spiritshots: S-grade  lvl 1    SELF      hit 0ms
+  2122  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2123  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2124  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2125  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2126  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2127  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2128  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2129  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2130  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2131  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2132  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2133  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2134  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2135  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2136  Rice Cake                                       lvl 1    SELF      hit 0ms
+  2137  Summon Regular Tree                             lvl 1    SELF      hit 0ms
+  2138  Summon Special Tree                             lvl 1    SELF      hit 0ms
+  2139  Special Tree Recovery Bonus                     lvl 1    AURA      hit 0ms
+  2140  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2141  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2142  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2143  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2144  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2145  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2146  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2147  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2148  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2149  Item - Carol Sound Crystal                      lvl 1    SELF      hit 0ms
+  2150  Soulshot: D-Grade                               lvl 1    SELF      hit 0ms
+  2151  Soulshot: C-Grade                               lvl 1    SELF      hit 0ms
+  2152  Soulshot: B-Grade                               lvl 1    SELF      hit 0ms
+  2153  Soulshot: A-Grade                               lvl 1    SELF      hit 0ms
+  2154  Soulshot: S-Grade                               lvl 1    SELF      hit 0ms
+  2155  Spiritshot: D-Grade                             lvl 1    SELF      hit 0ms
+  2156  Spiritshot: C-Grade                             lvl 1    SELF      hit 0ms
+  2157  Spiritshot: B-Grade                             lvl 1    SELF      hit 0ms
+  2158  Spiritshot: A-Grade                             lvl 1    SELF      hit 0ms
+  2159  Spiritshot: S-Grade                             lvl 1    SELF      hit 0ms
+  2160  Blessed Spiritshot: D-Grade                     lvl 1    SELF      hit 0ms
+  2161  Blessed Spiritshot: C-Grade                     lvl 1    SELF      hit 0ms
+  2162  Blessed Spiritshot: B-Grade                     lvl 1    SELF      hit 0ms
+  2163  Blessed Spiritshot: A-Grade                     lvl 1    SELF      hit 0ms
+  2164  Blessed Spiritshot: S-Grade                     lvl 1    SELF      hit 0ms
+  2165  Energy Stone                                    lvl 1    SELF      hit 0ms
+  2166  CP Gauge Potion                                 lvl 2    SELF      hit 0ms
+  2167  Scroll of SP                                    lvl 3    SELF      hit 200ms
+  2168  Raid Blessing                                   lvl 6    SELF      hit 2000ms
+  2169  Magic Haste Potion                              lvl 2    SELF      hit 0ms
+  2170  Scroll: Cancel Sleep                            lvl 1    ONE       hit 0ms
+  2171  Spellbook Paper                                 lvl 1    SELF      hit 0ms
+  2172  Scroll of Giants                                lvl 1    SELF      hit 0ms
+  2173  Book of Giants                                  lvl 1    SELF      hit 0ms
+  2174  Ingredient Bag                                  lvl 3    SELF      hit 0ms
+  2175  Ingredient Box                                  lvl 1    SELF      hit 0ms
+  2176  Ancient Papyrus                                 lvl 4    SELF      hit 0ms
+  2177  Blessed Scroll of Escape: Clan Hall             lvl 1    SELF      hit 200ms
+  2178  Blessed Scroll of Escape: Castle                lvl 1    SELF      hit 200ms
+  2179  Blessed Scroll of Resurrection: Pet             lvl 1    PC_BODY   hit 15000ms
+  2180  Feed: Castle Strider                            lvl 1    SELF      hit 0ms
+  2181  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2182  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2183  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2184  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2185  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2186  Item - Fishing Shot                             lvl 1    NONE      hit 0ms
+  2187  Item - Special Sound Crystal                    lvl 1    SELF      hit 0ms
+  2188  Golden Spice                                    lvl 1    ONE       hit 1000ms
+  2189  Crystal Spice                                   lvl 1    ONE       hit 1000ms
+  2190  Item - Green Fish                               lvl 9    SELF      hit 0ms
+  2191  Item - Jade Fish                                lvl 9    SELF      hit 0ms
+  2192  Item - Blue Fish                                lvl 9    SELF      hit 0ms
+  2193  Item - Yellow Fish                              lvl 9    SELF      hit 0ms
+  2194  Item - Orange Fish                              lvl 9    SELF      hit 0ms
+  2195  Item - Violet Fish                              lvl 9    SELF      hit 0ms
+  2196  Item - Red Fish                                 lvl 9    SELF      hit 0ms
+  2197  Item - White Fish                               lvl 9    SELF      hit 0ms
+  2198  Item - Black Fish                               lvl 9    SELF      hit 0ms
+  2199  Item - Green Treasure Box                       lvl 3    SELF      hit 0ms
+  2200  Item - Jade Treasure Box                        lvl 3    SELF      hit 0ms
+  2201  Item - Blue Treasure Box                        lvl 3    SELF      hit 0ms
+  2202  Item - Yellow Treasure Box                      lvl 3    SELF      hit 0ms
+  2203  Item - Orange Treasure Box                      lvl 3    SELF      hit 0ms
+  2204  Item - Violet Treasure Box                      lvl 3    SELF      hit 0ms
+  2205  Item - Red Treasure Box                         lvl 3    SELF      hit 0ms
+  2206  Item - White Treasure Box                       lvl 3    SELF      hit 0ms
+  2207  Item - Black Treasure Box                       lvl 3    SELF      hit 0ms
+  2208  Item - Blessed Scroll of Enchant Armor          lvl 1    NONE      hit 0ms
+  2209  Item - Blessed Scroll of Enchant Armor          lvl 1    NONE      hit 0ms
+  2210  Item - Blessed Scroll of Enchant Armor          lvl 1    NONE      hit 0ms
+  2211  Item - Blessed Scroll of Enchant Armor          lvl 1    NONE      hit 0ms
+  2212  Item - Blessed Scroll of Enchant Armor          lvl 1    NONE      hit 0ms
+  2213  Escape - Talking Island Village                 lvl 21   SELF      hit 20000ms
+  2214  Scroll of Escape to Giran Castle Town           lvl 10   SELF      hit 20000ms
+  2215  Item - Quest Special Box                        lvl 4    SELF      hit 0ms
+  2216  Item - Quest Special Fish                       lvl 4    SELF      hit 0ms
+  2217  Item - Quest Treasure Box                       lvl 5    SELF      hit 0ms
+  2218  Item - Quest Sac                                lvl 3    SELF      hit 0ms
+  2219  Item - Quest Sac                                lvl 2    SELF      hit 0ms
+  2220  Item - Easy Green Fish                          lvl 9    SELF      hit 0ms
+  2221  Item - Easy Jade Fish                           lvl 9    SELF      hit 0ms
+  2222  Item - Easy Blue Fish                           lvl 9    SELF      hit 0ms
+  2223  Item - Easy Yellow Fish                         lvl 9    SELF      hit 0ms
+  2224  Item - Easy Orange Fish                         lvl 9    SELF      hit 0ms
+  2225  Item - Easy Violet Fish                         lvl 9    SELF      hit 0ms
+  2226  Item - Easy Red Fish                            lvl 9    SELF      hit 0ms
+  2227  Item - Easy White Fish                          lvl 9    SELF      hit 0ms
+  2228  Item - Easy Black Fish                          lvl 9    SELF      hit 0ms
+  2229  Treasure Chest Key - 1                          lvl 8    UNLOCKABLE  hit 500ms
+  2230  Item - Theme Sound Crystal                      lvl 1    SELF      hit 0ms
+  2231  Amulet: Protection of Valakas                   lvl 1    SELF      hit 1000ms
+  2232  Amulet: Slay Valakas                            lvl 1    SELF      hit 1000ms
+  2233  Amulet: Flames of Valakas                       lvl 1    SELF      hit 1000ms
+  2234  Disrupting Arrow                                lvl 1    ONE       hit 500ms
+  2235  Anteroom Door Key                               lvl 1    UNLOCKABLE  hit 500ms
+  2236  Chapel Door Key                                 lvl 1    UNLOCKABLE  hit 500ms
+  2237  Altar Door Key                                  lvl 1    UNLOCKABLE  hit 500ms
+  2238  Room of Splendor Key                            lvl 1    UNLOCKABLE  hit 500ms
+  2239  Petrifaction Scroll                             lvl 1    PARTY     hit 0ms
+  2240  Hot Spring Nectar                               lvl 1    ONE       hit 0ms
+  2241  Hot Spring Mineral Water                        lvl 1    ONE       hit 0ms
+  2242  Hot Spring Fountain Water                       lvl 1    ONE       hit 0ms
+  2243  Hot Spring Sulfur                               lvl 1    ONE       hit 0ms
+  2244  Herb of Life                                    lvl 1    SELF      hit 100ms
+  2245  Herb of Mana                                    lvl 1    SELF      hit 100ms
+  2246  Herb of Power                                   lvl 1    SELF      hit 100ms
+  2247  Herb of Magic                                   lvl 1    SELF      hit 100ms
+  2248  Bless of Fire                                   lvl 1    SELF      hit 1000ms
+  2249  Bless of Water                                  lvl 1    SELF      hit 1000ms
+  2250  Bless of Wind                                   lvl 1    SELF      hit 1000ms
+  2251  Bless of Earth                                  lvl 1    SELF      hit 1000ms
+  2252  Bless of Darkness                               lvl 1    SELF      hit 1000ms
+  2253  Bless of Sacredness                             lvl 1    SELF      hit 1000ms
+  2254  Crystal of Fire                                 lvl 3    NONE      hit 1000ms
+  2255  Crystal of Water                                lvl 3    NONE      hit 1000ms
+  2256  Crystal of Wind                                 lvl 3    NONE      hit 1000ms
+  2257  Crystal of Earth                                lvl 3    NONE      hit 1000ms
+  2258  Crystal of Darkness                             lvl 3    NONE      hit 1000ms
+  2259  Crystal of Sacredness                           lvl 3    NONE      hit 1000ms
+  2260  Key of Riddles                                  lvl 1    SELF      hit 0ms
+  2261  Item - Hard Green Fish                          lvl 9    SELF      hit 0ms
+  2262  Item - Hard Jade Fish                           lvl 9    SELF      hit 0ms
+  2263  Item - Hard Blue Fish                           lvl 9    SELF      hit 0ms
+  2264  Item - Hard Yellow Fish                         lvl 9    SELF      hit 0ms
+  2265  Item - Hard Orange Fish                         lvl 9    SELF      hit 0ms
+  2266  Item - Hard Violet Fish                         lvl 9    SELF      hit 0ms
+  2267  Item - Hard Red Fish                            lvl 9    SELF      hit 0ms
+  2268  Item - Hard White Fish                          lvl 9    SELF      hit 0ms
+  2269  Item - Hard Black Fish                          lvl 9    SELF      hit 0ms
+  2270  Item - Adventurer Box                           lvl 7    SELF      hit 0ms
+  2271  Item - Hot Spring Fish                          lvl 1    SELF      hit 0ms
+  2272  Item - Fight Song Crystal                       lvl 1    SELF      hit 0ms
+  2273  Item - Red Devil Support Box                    lvl 1    SELF      hit 0ms
+  2274  Fisherman's Potion – Green                      lvl 8    SELF      hit 0ms
+  2275  Fisherman's Recovery Potion                     lvl 1    SELF      hit 0ms
+  2276  Dewdrop of Destruction                          lvl 1    ONE       hit 2000ms
+  2277  Event Gift Box                                  lvl 6    SELF      hit 0ms
+  2278  Superior Herb of Life                           lvl 3    SELF      hit 100ms
+  2279  Superior Herb of Mana                           lvl 3    SELF      hit 100ms
+  2280  Herb of Power                                   lvl 1    SELF      hit 100ms
+  2281  Herb of Magic                                   lvl 1    SELF      hit 100ms
+  2282  Herb of Atk. Spd.                               lvl 1    SELF      hit 100ms
+  2283  Herb of Casting Spd.                            lvl 1    SELF      hit 100ms
+  2284  Herb of Critical Attack                         lvl 1    SELF      hit 100ms
+  2285  Herb of Speed                                   lvl 1    SELF      hit 100ms
+  2286  Scroll: Recovery (Grade S)                      lvl 6    SELF      hit 0ms
+  2287  Elixir of Life (Grade S)                        lvl 6    SELF      hit 0ms
+  2288  Elixir of Mental Strength (Grade S)             lvl 6    SELF      hit 0ms
+  2289  Elixir of CP (Grade S)                          lvl 6    SELF      hit 0ms
+  2290  Coffer of Shadows                               lvl 1    SELF      hit 0ms
+  2291  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2292  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2293  Facelifting Potion                              lvl 1    SELF      hit 500ms
+  2294  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2295  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2296  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2297  Dye Potion                                      lvl 1    SELF      hit 500ms
+  2298  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2299  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2300  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2301  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2302  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2303  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2304  Hair Style Change Potion                        lvl 1    SELF      hit 500ms
+  2305  Primeval Potion                                 lvl 1    SELF      hit 0ms
+  2306  Red Primeval Crystal                            lvl 3    SELF      hit 200ms
+  2307  Remove Petrification Scroll                     lvl 1    SELF      hit 0ms
+  2308  Event Item                                      lvl 36   SELF      hit 0ms
+  2309  Pig Chest                                       lvl 1    SELF      hit 0ms
+  2310  Scroll of Guidance - Event Use                  lvl 1    SELF      hit 4000ms
+  2311  Scroll of Death Whisper - Event Use             lvl 1    SELF      hit 4000ms
+  2312  Scroll of Focus - Event Use                     lvl 1    SELF      hit 4000ms
+  2313  Scroll of Acumen - Event Use                    lvl 1    SELF      hit 4000ms
+  2314  Scroll of Haste - Event Use                     lvl 1    SELF      hit 4000ms
+  2315  Scroll of Agility - Event Use                   lvl 1    SELF      hit 4000ms
+  2316  Scroll of Empower - Event Use                   lvl 1    SELF      hit 4000ms
+  2317  Scroll of Might - Event Use                     lvl 1    SELF      hit 4000ms
+  2318  Scroll of Wind Walk - Event Use                 lvl 1    SELF      hit 4000ms
+  2319  Scroll of Shield - Event Use                    lvl 1    SELF      hit 4000ms
+  2320  Blessed Scroll of Escape - Event Use            lvl 1    SELF      hit 200ms
+  2321  Blessed Scroll of Resurrection - Event Use      lvl 1    PC_BODY   hit 3000ms
+  2322  Chest Key - For Events Only                     lvl 1    ONE       hit 500ms
+  2323  Red Sage's Stone                                lvl 1    SELF      hit 0ms
+  2324  Blue Sage's Stone                               lvl 1    SELF      hit 0ms
+  2325  Orange Sage's Stone                             lvl 1    SELF      hit 0ms
+  2326  Black Sage's Stone                              lvl 1    SELF      hit 0ms
+  2327  White Sage's Stone                              lvl 1    SELF      hit 0ms
+  2328  Green Sage's Stone                              lvl 1    SELF      hit 0ms
+  3001  int_1                                           lvl 1    SELF      hit 0ms
+  3002  int_2                                           lvl 1    SELF      hit 0ms
+  3003  str_2                                           lvl 1    SELF      hit 0ms
+  3004  maxmp_5                                         lvl 1    SELF      hit 0ms
+  3005  Bleed                                           lvl 1    ONE       hit 0ms
+  3006  Equip Set Items                                 lvl 1    SELF      hit 0ms
+  3007  Special Ability: Guidance                       lvl 6    SELF      hit 0ms
+  3008  Special Ability: Guidance                       lvl 6    SELF      hit 0ms
+  3009  Special Ability: Evasion                        lvl 6    SELF      hit 0ms
+  3010  Special Ability: Focus                          lvl 7    SELF      hit 0ms
+  3011  Special Ability: Focus                          lvl 6    SELF      hit 0ms
+  3012  Special Ability: Anger                          lvl 6    SELF      hit 0ms
+  3013  Special Ability: Health                         lvl 5    SELF      hit 0ms
+  3014  Special Ability: Mana Up                        lvl 3    SELF      hit 0ms
+  3016  Special Ability: Critical Stun                  lvl 6    ONE       hit 0ms
+  3018  Special Ability: Back Blow                      lvl 6    SELF      hit 0ms
+  3019  Special Ability: Back Blow                      lvl 6    SELF      hit 0ms
+  3020  Special Ability: Critical Bleed                 lvl 6    ONE       hit 0ms
+  3021  Special Ability: Critical Bleed                 lvl 6    ONE       hit 0ms
+  3023  Special Ability: Critical Damage                lvl 6    SELF      hit 0ms
+  3025  Special Ability: Critical Anger                 lvl 6    SELF      hit 0ms
+  3026  Special Ability: Critical Anger                 lvl 6    SELF      hit 0ms
+  3027  Special Ability: Rsk. Focus                     lvl 6    SELF      hit 0ms
+  3028  Special Ability: Rsk. Evasion                   lvl 6    SELF      hit 0ms
+  3029  Special Ability: Rsk. Evasion                   lvl 6    SELF      hit 0ms
+  3030  Special Ability: Rsk. Evasion                   lvl 6    SELF      hit 0ms
+  3031  Special Ability: Rsk. Evasion                   lvl 6    SELF      hit 0ms
+  3032  Special Ability: Rsk. Haste                     lvl 6    SELF      hit 0ms
+  3033  Special Ability: Rsk. Haste                     lvl 6    SELF      hit 0ms
+  3034  Special Ability: Rsk. Haste                     lvl 6    SELF      hit 0ms
+  3035  Special Ability: Mighty Mortal                  lvl 6    SELF      hit 0ms
+  3036  Special Ability: Haste                          lvl 6    SELF      hit 0ms
+  3037  Special Ability: Haste                          lvl 6    SELF      hit 0ms
+  3038  Special Ability: Haste                          lvl 6    SELF      hit 0ms
+  3042  Special Ability: Critical Damage                lvl 20   SELF      hit 0ms
+  3043  Special Ability: Critical Damage                lvl 6    SELF      hit 0ms
+  3044  Special Ability: Focus                          lvl 20   SELF      hit 0ms
+  3045  Special Ability: Haste                          lvl 20   SELF      hit 0ms
+  3046  Special Ability: Guidance                       lvl 20   SELF      hit 0ms
+  3047  Special Ability: Acumen                         lvl 3    SELF      hit 0ms
+  3048  Special Ability: Conversion                     lvl 3    SELF      hit 0ms
+  3050  Special Ability: Focus                          lvl 2    SELF      hit 0ms
+  3051  Special Ability: Focus                          lvl 2    SELF      hit 0ms
+  3052  Special Ability: Critical Bleed                 lvl 2    ONE       hit 0ms
+  3053  Special Ability: Critical Bleed                 lvl 2    ONE       hit 0ms
+  3054  Special Ability: Critical Bleed                 lvl 2    ONE       hit 0ms
+  3055  Special Ability: Critical Bleed                 lvl 2    ONE       hit 0ms
+  3056  Special Ability: Rsk. Haste                     lvl 3    SELF      hit 0ms
+  3057  Special Ability: Anger                          lvl 3    SELF      hit 0ms
+  3058  Special Ability: Anger                          lvl 2    SELF      hit 0ms
+  3063  Special Ability: Back Blow                      lvl 2    SELF      hit 0ms
+  3064  Special Ability: Guidance                       lvl 1    SELF      hit 0ms
+  3065  Special Ability: Guidance                       lvl 1    SELF      hit 0ms
+  3066  Special Ability: Critical Damage                lvl 3    SELF      hit 0ms
+  3067  Special Ability: Critical Damage                lvl 2    SELF      hit 0ms
+  3068  Special Ability: Haste                          lvl 3    SELF      hit 0ms
+  3069  Special Ability: Risky Evasion                  lvl 1    SELF      hit 0ms
+  3070  Special Ability: Critical Stun                  lvl 3    ONE       hit 0ms
+  3071  Special Ability: Rsk. Focus                     lvl 2    SELF      hit 0ms
+  3072  Special Ability: Empower                        lvl 2    SELF      hit 0ms
+  3073  Special Ability: Magic Power                    lvl 2    SELF      hit 0ms
+  3076  Special Ability: Empower                        lvl 6    SELF      hit 0ms
+  3077  Special Ability: Magic Power                    lvl 6    SELF      hit 0ms
+  3080  Item Skill: Aggression                          lvl 10   ONE       hit 0ms
+  3081  Item Skill: Charm                               lvl 10   ONE       hit 0ms
+  3082  Item Skill: Mana Burn                           lvl 10   ONE       hit 0ms
+  3083  Item Skill: Slow                                lvl 10   ONE       hit 0ms
+  3084  Item Skill: Winter                              lvl 10   ONE       hit 0ms
+  3085  Item Skill: Stun                                lvl 10   ONE       hit 0ms
+  3086  Item Skill: Hold                                lvl 10   ONE       hit 0ms
+  3087  Item Skill: Sleep                               lvl 10   ONE       hit 0ms
+  3088  Item Skill: Paralyze                            lvl 10   ONE       hit 0ms
+  3089  Item Skill: Medusa                              lvl 10   ONE       hit 0ms
+  3090  Item Skill: Fear                                lvl 10   ONE       hit 0ms
+  3091  Item Skill: Poison                              lvl 10   ONE       hit 0ms
+  3092  Item Skill: Bleed                               lvl 10   ONE       hit 0ms
+  3093  Item Skill: Silence                             lvl 10   ONE       hit 0ms
+  3094  Item Skill: Doom                                lvl 10   ONE       hit 0ms
+  3095  Item Skill: Mana Burn                           lvl 10   ONE       hit 0ms
+  3096  Item Skill: Slow                                lvl 10   ONE       hit 0ms
+  3097  Item Skill: Winter                              lvl 10   ONE       hit 0ms
+  3098  Item Skill: Stun                                lvl 10   ONE       hit 0ms
+  3099  Item Skill: Hold                                lvl 10   SELF      hit 0ms
+  3100  Item Skill: Sleep                               lvl 10   ONE       hit 0ms
+  3101  Item Skill: Paralyze                            lvl 10   ONE       hit 0ms
+  3102  Item Skill: Medusa                              lvl 10   ONE       hit 0ms
+  3103  Item Skill: Fear                                lvl 10   ONE       hit 0ms
+  3104  Item Skill: Poison                              lvl 10   ONE       hit 0ms
+  3105  Item Skill: Bleed                               lvl 10   ONE       hit 0ms
+  3106  Item Skill: Silence                             lvl 10   ONE       hit 0ms
+  3107  Item Skill: Doom                                lvl 10   ONE       hit 0ms
+  3108  Item Skill: Aggression Up                       lvl 10   ONE       hit 0ms
+  3109  Item Skill: Aggression Down                     lvl 10   ONE       hit 0ms
+  3110  Item Skill: Mana Burn                           lvl 10   ONE       hit 0ms
+  3111  Item Skill: Slow                                lvl 10   ONE       hit 0ms
+  3112  Item Skill: Winter                              lvl 10   ONE       hit 0ms
+  3113  Item Skill: Stun                                lvl 10   ONE       hit 0ms
+  3114  Item Skill: Hold                                lvl 10   ONE       hit 0ms
+  3115  Item Skill: Sleep                               lvl 10   ONE       hit 0ms
+  3116  Item Skill: Paralyze                            lvl 10   ONE       hit 0ms
+  3117  Item Skill: Medusa                              lvl 10   ONE       hit 0ms
+  3118  Item Skill: Fear                                lvl 10   ONE       hit 0ms
+  3119  Item Skill: Poison                              lvl 10   ONE       hit 0ms
+  3120  Item Skill: Bleed                               lvl 10   ONE       hit 0ms
+  3121  Item Skill: Silence                             lvl 10   ONE       hit 0ms
+  3122  Item Skill: Doom                                lvl 10   ONE       hit 0ms
+  3124  Item Skill: Blessed Body                        lvl 10   SELF      hit 4000ms
+  3125  Item Skill: Battle Roar                         lvl 10   SELF      hit 1500ms
+  3126  Item Skill: Prayer                              lvl 10   SELF      hit 4000ms
+  3127  Item Skill: Recharge                            lvl 10   ONE       hit 6000ms
+  3128  Item Skill: Blessed Soul                        lvl 10   SELF      hit 4000ms
+  3129  Item Skill: Mana Gain                           lvl 10   SELF      hit 4000ms
+  3130  Item Skill: Ritual                              lvl 10   SELF      hit 5000ms
+  3131  Item Skill: Cheer                               lvl 10   SELF      hit 4000ms
+  3132  Item Skill: Might                               lvl 10   SELF      hit 1000ms
+  3133  Item Skill: Empower                             lvl 10   SELF      hit 1000ms
+  3134  Item Skill: Duel Might                          lvl 10   SELF      hit 1000ms
+  3135  Item Skill: Shield                              lvl 10   SELF      hit 1000ms
+  3136  Item Skill: Magic Barrier                       lvl 10   SELF      hit 1000ms
+  3137  Item Skill: Duel Weakness                       lvl 10   ONE       hit 1500ms
+  3138  Item Skill: Heal Empower                        lvl 10   SELF      hit 4000ms
+  3139  Item Skill: Agility                             lvl 10   SELF      hit 4000ms
+  3140  Item Skill: Guidance                            lvl 10   SELF      hit 4000ms
+  3141  Item Skill: Focus                               lvl 10   SELF      hit 4000ms
+  3142  Item Skill: Wild Magic                          lvl 10   SELF      hit 1000ms
+  3143  Item Skill: Kiss of Eva                         lvl 10   SELF      hit 4000ms
+  3144  Item Skill: Acrobatics                          lvl 10   SELF      hit 4000ms
+  3145  Item Skill: Iron Body                           lvl 10   SELF      hit 4000ms
+  3146  Item Skill: Recall                              lvl 1    SELF      hit 10000ms
+  3147  Item Skill: Recall                              lvl 1    SELF      hit 1500ms
+  3148  Item Skill: Vampiric Rage                       lvl 10   SELF      hit 4000ms
+  3149  Item Skill: Aggression                          lvl 10   ONE       hit 1000ms
+  3150  Item Skill: Charm                               lvl 10   ONE       hit 1500ms
+  3151  Item Skill: Peace                               lvl 10   ONE       hit 4000ms
+  3152  Item Skill: Trick                               lvl 10   ONE       hit 1200ms
+  3155  Item Skill: Unlock                              lvl 10   UNLOCKABLE  hit 2500ms
+  3156  Item Skill: Firework                            lvl 1    SELF      hit 0ms
+  3157  Item Skill: Large Firework                      lvl 1    SELF      hit 0ms
+  3158  Item Skill: Celestial Shield                    lvl 1    SELF      hit 1000ms
+  3159  Item Skill: Stealth                             lvl 3    SELF      hit 2000ms
+  3160  Item Skill: Resurrection                        lvl 9    PC_BODY   hit 6000ms
+  3161  Item Skill: Skill Clarity                       lvl 3    SELF      hit 4000ms
+  3162  Item Skill: Spell Clarity                       lvl 3    SELF      hit 4000ms
+  3163  Item Skill: Music Clarity                       lvl 3    SELF      hit 4000ms
+  3164  Item Skill: Clarity                             lvl 3    SELF      hit 4000ms
+  3165  Item Skill: Prominence                          lvl 10   ONE       hit 1000ms
+  3167  Item Skill: Hydro Blast                         lvl 10   ONE       hit 1000ms
+  3168  Item Skill: Hurricane                           lvl 10   ONE       hit 1000ms
+  3169  Item Skill: Stone                               lvl 10   ONE       hit 1000ms
+  3171  Item Skill: Shadow Flare                        lvl 10   ONE       hit 1000ms
+  3189  Item Skill: Stun                                lvl 10   ONE       hit 1500ms
+  3196  Item Skill: Bleed                               lvl 10   ONE       hit 1500ms
+  3199  Item Skill: Skill Refresh                       lvl 3    SELF      hit 4000ms
+  3200  Item Skill: Spell Refresh                       lvl 3    SELF      hit 4000ms
+  3201  Item Skill: Music Refresh                       lvl 3    SELF      hit 4000ms
+  3202  Item Skill: Refresh                             lvl 3    SELF      hit 4000ms
+  3203  Item Skill: Mystery Skill                       lvl 1    SELF      hit 0ms
+  3206  Item Skill: Music                               lvl 10   SELF      hit 0ms
+  3207  Item Skill: Heal                                lvl 10   SELF      hit 0ms
+  3208  Item Skill: Blessed Body                        lvl 10   SELF      hit 0ms
+  3209  Item Skill: Prayer                              lvl 10   SELF      hit 0ms
+  3210  Item Skill: Recharge                            lvl 10   SELF      hit 0ms
+  3211  Item Skill: Blessed Soul                        lvl 10   SELF      hit 0ms
+  3212  Item Skill: Mana Gain                           lvl 10   SELF      hit 0ms
+  3213  Item Skill: Ritual                              lvl 10   SELF      hit 0ms
+  3214  Item Skill: Cheer                               lvl 10   SELF      hit 0ms
+  3215  Item Skill: Might                               lvl 10   SELF      hit 0ms
+  3216  Item Skill: Empower                             lvl 10   SELF      hit 0ms
+  3217  Item Skill: Duel Might                          lvl 10   SELF      hit 0ms
+  3218  Item Skill: Shield                              lvl 10   SELF      hit 0ms
+  3219  Item Skill: Magic Barrier                       lvl 10   SELF      hit 0ms
+  3220  Item Skill: Duel Weakness                       lvl 10   SELF      hit 0ms
+  3221  Item Skill: Agility                             lvl 10   SELF      hit 0ms
+  3222  Item Skill: Guidance                            lvl 10   SELF      hit 0ms
+  3223  Item Skill: Focus                               lvl 10   SELF      hit 0ms
+  3224  Item Skill: Wild Magic                          lvl 10   SELF      hit 0ms
+  3225  Item Skill: Charm                               lvl 10   SELF      hit 0ms
+  3226  Item Skill: Slow                                lvl 10   SELF      hit 0ms
+  3227  Item Skill: Winter                              lvl 10   SELF      hit 0ms
+  3228  Item Skill: Stun                                lvl 10   SELF      hit 0ms
+  3229  Item Skill: Hold                                lvl 10   SELF      hit 0ms
+  3230  Item Skill: Sleep                               lvl 10   SELF      hit 0ms
+  3231  Item Skill: Paralyze                            lvl 10   SELF      hit 0ms
+  3232  Item Skill: Medusa                              lvl 10   SELF      hit 0ms
+  3233  Item Skill: Fear                                lvl 10   SELF      hit 0ms
+  3234  Item Skill: Poison                              lvl 10   SELF      hit 0ms
+  3235  Item Skill: Bleed                               lvl 10   SELF      hit 0ms
+  3236  Item Skill: Silence                             lvl 10   SELF      hit 0ms
+  3237  Item Skill: Doom                                lvl 10   SELF      hit 0ms
+  3238  Item Skill: Prayer                              lvl 10   SELF      hit 0ms
+  3239  Item Skill: Mana Gain                           lvl 10   SELF      hit 0ms
+  3240  Item Skill: Might                               lvl 10   SELF      hit 0ms
+  3241  Item Skill: Empower                             lvl 10   SELF      hit 0ms
+  3243  Item Skill: Duel Might                          lvl 10   SELF      hit 0ms
+  3244  Item Skill: Shield                              lvl 10   SELF      hit 0ms
+  3245  Item Skill: Magic Barrier                       lvl 10   SELF      hit 0ms
+  3246  Item Skill: Heal Empower                        lvl 10   SELF      hit 0ms
+  3247  Item Skill: Agility                             lvl 10   SELF      hit 0ms
+  3248  Item Skill: Guidance                            lvl 10   SELF      hit 0ms
+  3249  Item Skill: Focus                               lvl 10   SELF      hit 0ms
+  3250  Item Skill: Wild Magic                          lvl 10   SELF      hit 0ms
+  3251  Item Skill: Weight Limit                        lvl 10   SELF      hit 0ms
+  3252  Item Skill: Kiss of Eva                         lvl 10   SELF      hit 0ms
+  3253  Item Skill: Acrobatics                          lvl 10   SELF      hit 0ms
+  3254  Item Skill: Iron Body                           lvl 10   SELF      hit 0ms
+  3255  Item Skill: Skill Clarity                       lvl 3    SELF      hit 0ms
+  3256  Item Skill: Spell Clarity                       lvl 3    SELF      hit 0ms
+  3257  Item Skill: Music Clarity                       lvl 3    SELF      hit 0ms
+  3258  Item Skill: Clarity                             lvl 3    SELF      hit 0ms
+  3259  Item Skill: Reflect Damage                      lvl 3    SELF      hit 0ms
+  3260  Forgiveness                                     lvl 1    ONE       hit 2500ms
+  3261  Happiness                                       lvl 1    ONE       hit 2500ms
+  3262  Pardon                                          lvl 1    ONE       hit 3200ms
+  3263  Blessed Resurrection                            lvl 1    PC_BODY   hit 3000ms
+  3264  Blessed Escape                                  lvl 1    SELF      hit 200ms
+  3265  Mysterious Ability                              lvl 1    SELF      hit 0ms
+  3266  Large Fireworks Ability                         lvl 1    SELF      hit 0ms
+  3500  Wooden Set                                      lvl 1    SELF      hit 0ms
+  3501  Devotion Set                                    lvl 1    SELF      hit 0ms
+  3502  Mithril Heavy Armor Set                         lvl 1    SELF      hit 0ms
+  3503  Reinforced Leather Set                          lvl 1    SELF      hit 0ms
+  3504  Knowledge Set                                   lvl 1    SELF      hit 0ms
+  3505  Manticore Set                                   lvl 1    SELF      hit 0ms
+  3506  Brigandine Set                                  lvl 1    SELF      hit 0ms
+  3507  Elven Mithril Set                               lvl 1    SELF      hit 0ms
+  3508  Mithril Light Armor Set                         lvl 1    SELF      hit 0ms
+  3509  Chain Mail Set                                  lvl 1    SELF      hit 0ms
+  3510  Karmian Set                                     lvl 1    SELF      hit 0ms
+  3511  Plated Leather Set                              lvl 1    SELF      hit 0ms
+  3512  Composite Heavy Armor Set                       lvl 1    SELF      hit 0ms
+  3513  Demon's Set                                     lvl 1    SELF      hit 0ms
+  3514  Theca Leather Light Armor Set                   lvl 1    SELF      hit 0ms
+  3515  Drake Leather Set                               lvl 1    SELF      hit 0ms
+  3516  Full Plate Set                                  lvl 1    SELF      hit 0ms
+  3517  Divine Set                                      lvl 1    SELF      hit 0ms
+  3518  Zubei's Heavy Armor Set                         lvl 1    SELF      hit 0ms
+  3519  Avadon Breastplate Heavy Armor Set              lvl 1    SELF      hit 0ms
+  3520  Zubei's Leather Shirt Light Armor Set           lvl 1    SELF      hit 0ms
+  3521  Avadon Light Armor Set                          lvl 1    SELF      hit 0ms
+  3522  Tunic of Zubei Robe Set                         lvl 1    SELF      hit 0ms
+  3523  Avadon Robe Set                                 lvl 1    SELF      hit 0ms
+  3524  Blue Wolf Heavy Armor Set                       lvl 1    SELF      hit 0ms
+  3525  Doom Heavy Armor Set                            lvl 1    SELF      hit 0ms
+  3526  Blue Wolf Light Armor Set                       lvl 1    SELF      hit 0ms
+  3527  Doom Light Armor Set                            lvl 1    SELF      hit 0ms
+  3528  Blue Wolf Robe Set                              lvl 1    SELF      hit 0ms
+  3529  Doom Robe Set                                   lvl 1    SELF      hit 0ms
+  3530  Dark Crystal Breastplate Heavy Armor Set        lvl 1    SELF      hit 0ms
+  3531  Tallum Heavy Armor Set                          lvl 1    SELF      hit 0ms
+  3532  Dark Crystal Light Armor Set                    lvl 1    SELF      hit 0ms
+  3533  Tallum Light Armor Set                          lvl 1    SELF      hit 0ms
+  3534  Tallum Robe Set                                 lvl 1    SELF      hit 0ms
+  3535  Dark Crystal Robe Set                           lvl 1    SELF      hit 0ms
+  3536  Nightmare Heavy Armor Set                       lvl 1    SELF      hit 0ms
+  3537  Majestic Heavy Armor Set                        lvl 1    SELF      hit 0ms
+  3538  Nightmarish Leather Light Armor Set             lvl 1    SELF      hit 0ms
+  3539  Majestic Light Armor Set                        lvl 1    SELF      hit 0ms
+  3540  Nightmare Robe Set                              lvl 1    SELF      hit 0ms
+  3541  Majestic Robe Set                               lvl 1    SELF      hit 0ms
+  3542  Special Ability: Critical Damage                lvl 6    SELF      hit 0ms
+  3543  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3544  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3545  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3546  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3547  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3548  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3549  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3550  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3551  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3552  Special Ability: PvP Damage                     lvl 2    SELF      hit 0ms
+  3553  Imperial Crusader Heavy Armor Set               lvl 1    SELF      hit 0ms
+  3554  Equipped with Shield                            lvl 1    SELF      hit 0ms
+  3555  Draconic Light Armor Set                        lvl 1    SELF      hit 0ms
+  3556  Major Arcana Robe Set                           lvl 1    SELF      hit 0ms
+  3557  Necklace of Valakas                             lvl 1    SELF      hit 0ms
+  3558  Earring of Antharas                             lvl 1    SELF      hit 0ms
+  3559  Earring of Zaken                                lvl 1    SELF      hit 0ms
+  3560  Earring of Orfen                                lvl 1    SELF      hit 0ms
+  3561  Ring of Baium                                   lvl 1    SELF      hit 0ms
+  3562  Ring of Ant Queen                               lvl 1    SELF      hit 0ms
+  3563  Ring of Core                                    lvl 1    SELF      hit 0ms
+  3564  Special Ability: Haste                          lvl 1    SELF      hit 0ms
+  3565  Special Ability: Focus                          lvl 1    SELF      hit 0ms
+  3566  Special Ability: Focus                          lvl 1    SELF      hit 0ms
+  3567  Special Ability: Focus                          lvl 2    SELF      hit 0ms
+  3568  Special Ability: HP Drain                       lvl 1    SELF      hit 0ms
+  3569  Special Ability: HP Regeneration                lvl 1    SELF      hit 0ms
+  3570  Special Ability: Robust Health                  lvl 1    SELF      hit 0ms
+  3571  Special Ability: Crt. Stun                      lvl 1    ONE       hit 0ms
+  3572  Special Ability: Crt. Damage                    lvl 1    SELF      hit 0ms
+  3573  Special Ability: Guidance                       lvl 1    SELF      hit 0ms
+  3574  Special Ability: Crt. Slow                      lvl 1    ONE       hit 0ms
+  3575  Special Ability: Empower Option                 lvl 1    SELF      hit 0ms
+  3576  Special Ability: MP Regeneration                lvl 1    SELF      hit 0ms
+  3578  Special Ability: Infinity Blade                 lvl 1    SELF      hit 0ms
+  3579  Decrease P. Def.                                lvl 1    ONE       hit 0ms
+  3580  Special Ability: Infinity Axe                   lvl 1    SELF      hit 0ms
+  3581  Discord                                         lvl 1    ONE       hit 0ms
+  3582  Special Ability: Infinity Cleaver               lvl 1    SELF      hit 0ms
+  3583  Special Ability: Infinity Crusher               lvl 1    SELF      hit 0ms
+  3584  Shock                                           lvl 1    ONE       hit 0ms
+  3585  Infinity Wing                                   lvl 1    SELF      hit 0ms
+  3586  Physical Skill Restraint                        lvl 1    ONE       hit 0ms
+  3587  Special Ability: Infinity Fang                  lvl 1    SELF      hit 0ms
+  3588  Shock                                           lvl 1    ONE       hit 0ms
+  3589  Special Ability: Infinity Stinger               lvl 1    SELF      hit 0ms
+  3590  Silence                                         lvl 1    ONE       hit 0ms
+  3591  Special Ability: Infinity Spear                 lvl 1    SELF      hit 0ms
+  3592  Dispell                                         lvl 1    ONE       hit 0ms
+  3593  Special Ability: Infinity Bow                   lvl 1    SELF      hit 0ms
+  3594  Slow                                            lvl 1    ONE       hit 0ms
+  3595  Special Ability: Infinity Scepter               lvl 1    SELF      hit 0ms
+  3596  Full Recover                                    lvl 1    ONE       hit 0ms
+  3597  Special Ability: Infinity Rod                   lvl 1    SELF      hit 0ms
+  3598  Full Recover                                    lvl 1    ONE       hit 0ms
+  3599  Polearm Multi-attack                            lvl 1    SELF      hit 0ms
+  3600  Special Ability: Anger                          lvl 9    SELF      hit 0ms
+  3601  Special Ability: Haste                          lvl 9    SELF      hit 0ms
+  3602  Special Ability: Guidance                       lvl 9    SELF      hit 0ms
+  3604  Frintezza's Necklace                            lvl 1    SELF      hit 0ms
+  3605  Clan Oath Heavy Armor Set                       lvl 1    SELF      hit 0ms
+  3606  Clan Oath Light Armor Set                       lvl 1    SELF      hit 0ms
+  3607  Clan Oath Robe Set                              lvl 1    SELF      hit 0ms
+  3608  Apella Heavy Armor Set                          lvl 1    SELF      hit 0ms
+  3609  Apella Light Armor Set                          lvl 1    SELF      hit 0ms
+  3610  Apella Robe Set                                 lvl 1    SELF      hit 0ms
+  3611  Enchant Heavy Armor (Grade D)                   lvl 1    SELF      hit 0ms
+  3612  Enchant Light Armor (Grade D)                   lvl 1    SELF      hit 0ms
+  3613  Enchant Robe (Grade D)                          lvl 1    SELF      hit 0ms
+  3614  Enchant Heavy Armor (Grade C)                   lvl 1    SELF      hit 0ms
+  3615  Enchant Light Armor (Grade C)                   lvl 1    SELF      hit 0ms
+  3616  Enchant Robe (Grade C)                          lvl 1    SELF      hit 0ms
+  3617  Enchant Heavy Armor (Grade B)                   lvl 1    SELF      hit 0ms
+  3618  Enchant Light Armor (Grade B)                   lvl 1    SELF      hit 0ms
+  3619  Enchant Robe (Grade B)                          lvl 1    SELF      hit 0ms
+  3620  Enchant Heavy Armor (Grade A)                   lvl 1    SELF      hit 0ms
+  3621  Enchant Light Armor (Grade A)                   lvl 1    SELF      hit 0ms
+  3622  Enchant Robe (Grade A)                          lvl 1    SELF      hit 0ms
+  3623  Enchant Heavy Armor (Grade S)                   lvl 1    SELF      hit 0ms
+  3624  Enchant Light Armor (Grade S)                   lvl 1    SELF      hit 0ms
+  3625  Enchant Robe (Grade S)                          lvl 1    SELF      hit 0ms
+  3626  Kabokula                                        lvl 1    ONE       hit 25000ms
+  3627  Tapirawa                                        lvl 1    ONE       hit 25000ms
+  3628  Shabonoba                                       lvl 1    ONE       hit 25000ms
+  3630  Void Burst                                      lvl 1    AURA      hit 2000ms
+  3631  Void Flow                                       lvl 1    ONE       hit 1900ms
+  3632  Clan Gate                                       lvl 1    SELF      hit 10000ms
+  3633  Residential Shock Immunity                      lvl 2    SELF      hit 0ms
+  4003  Golem Body                                      lvl 1    SELF      hit 0ms
+  4004  Fragile Skull                                   lvl 1    SELF      hit 0ms
+  4005  Floating Target                                 lvl 1    SELF      hit 0ms
+  4006  Burning Wood                                    lvl 1    SELF      hit 0ms
+  4007  Immortal Life                                   lvl 1    SELF      hit 0ms
+  4008  Insect Skin                                     lvl 1    SELF      hit 0ms
+  4009  Resist Fire                                     lvl 5    SELF      hit 0ms
+  4010  Resist Water                                    lvl 5    SELF      hit 0ms
+  4011  Resist Wind                                     lvl 5    SELF      hit 0ms
+  4012  Resist Earth                                    lvl 5    SELF      hit 0ms
+  4013  Resistance to Fire, Vulnerable to Water         lvl 1    SELF      hit 0ms
+  4014  Resistance to Water, Vulnerable to Fire         lvl 1    SELF      hit 0ms
+  4015  Resistance to Wind, Vulnerable to Earth         lvl 1    SELF      hit 0ms
+  4016  Resistance to Earth, Vulnerable to Wind         lvl 1    SELF      hit 0ms
+  4017  Queen Ant Brandish                              lvl 1    AURA      hit 1300ms
+  4018  Decrease Speed                                  lvl 1    ONE       hit 2200ms
+  4019  Decrease Speed                                  lvl 1    AREA      hit 1700ms
+  4021  Queen Ant                                       lvl 1    SELF      hit 0ms
+  4022  Body of Nurse Ant                               lvl 1    SELF      hit 0ms
+  4023  Body of Royal Guard Ant                         lvl 1    SELF      hit 0ms
+  4028  NPC Might                                       lvl 3    SELF      hit 1800ms
+  4029  NPC Shield                                      lvl 3    SELF      hit 1800ms
+  4032  NPC Strike                                      lvl 12   ONE       hit 1000ms
+  4040  NPC Bow Attack                                  lvl 12   ONE       hit 4000ms
+  4045  Resist Full Magic Attack                        lvl 1    SELF      hit 0ms
+  4048  NPC Dash                                        lvl 3    SELF      hit 0ms
+  4049  Cubic DD                                        lvl 8    ONE       hit 0ms
+  4056  Immortal Attack                                 lvl 1    SELF      hit 0ms
+  4057  Insect Weak Point                               lvl 1    SELF      hit 0ms
+  4058  Plant Weak Point                                lvl 1    SELF      hit 0ms
+  4059  Animal Weak Point                               lvl 1    SELF      hit 0ms
+  4060  Beast Weak Point                                lvl 1    SELF      hit 0ms
+  4061  Dragon Weak Point                               lvl 1    SELF      hit 0ms
+  4062  Orfen                                           lvl 1    SELF      hit 0ms
+  4063  Paralysis                                       lvl 1    ONE       hit 3600ms
+  4064  Paralysis                                       lvl 1    AREA      hit 4000ms
+  4067  NPC Mortal Blow                                 lvl 12   ONE       hit 1000ms
+  4068  Mech Cannon                                     lvl 12   ONE       hit 1000ms
+  4070  Decrease Atk.Speed                              lvl 1    ONE       hit 0ms
+  4071  Resist Bow Weapons                              lvl 5    SELF      hit 0ms
+  4072  Shock                                           lvl 12   AURA      hit 1000ms
+  4073  Shock                                           lvl 12   ONE       hit 1000ms
+  4075  Shock                                           lvl 12   ONE       hit 1000ms
+  4079  Siege Hammer                                    lvl 1    ONE       hit 4800ms
+  4084  Resist Physical Attack                          lvl 10   SELF      hit 0ms
+  4085  Critical Power                                  lvl 1    SELF      hit 0ms
+  4086  Critical Chance                                 lvl 1    SELF      hit 0ms
+  4089  NPC Bear Spirit Totem                           lvl 1    SELF      hit 1500ms
+  4090  NPC Wolf Spirit Totem                           lvl 1    SELF      hit 1500ms
+  4091  NPC Ogre Spirit Totem                           lvl 1    SELF      hit 1500ms
+  4092  NPC Puma Spirit Totem                           lvl 1    SELF      hit 1500ms
+  4093  Evasion                                         lvl 1    SELF      hit 0ms
+  4095  Damage Shield                                   lvl 1    SELF      hit 0ms
+  4096  NPC Hawkeye                                     lvl 3    SELF      hit 1500ms
+  4101  NPC Spinning Slash                              lvl 12   AURA      hit 1000ms
+  4103  NPC Ultimate Evasion                            lvl 2    SELF      hit 1000ms
+  4106  Antharas Shock                                  lvl 1    FRONT_AURA  hit 6000ms
+  4107  Antharas Shock                                  lvl 1    BEHIND_AURA  hit 3000ms
+  4108  Antharas Terror                                 lvl 1    AREA      hit 2300ms
+  4109  Curse of Antharas                               lvl 1    AURA      hit 2800ms
+  4110  Breath Attack                                   lvl 2    FRONT_AREA  hit 2300ms
+  4111  Antharas Fossilization                          lvl 1    AREA      hit 2300ms
+  4112  Ordinary Attack                                 lvl 1    AREA      hit 2200ms
+  4113  Animal doing ordinary attack                    lvl 1    AREA      hit 2200ms
+  4116  Resist M. Atk.                                  lvl 10   SELF      hit 0ms
+  4120  Shock                                           lvl 12   ONE       hit 4000ms
+  4121  Summoned Monster Magic Protection               lvl 12   SELF      hit 0ms
+  4122  Antharas                                        lvl 1    SELF      hit 0ms
+  4123  Hostile Feeling                                 lvl 12   ONE       hit 1500ms
+  4124  NPC Spear Attack                                lvl 12   ONE       hit 4000ms
+  4125  Antharas Regeneration                           lvl 1    SELF      hit 0ms
+  4126  Reduction in recovery time                      lvl 1    ONE       hit 0ms
+  4127  Baium: General Attack                           lvl 1    AREA      hit 1500ms
+  4128  Wind Of Force                                   lvl 1    FRONT_AURA  hit 2300ms
+  4129  Earthquake                                      lvl 1    AURA      hit 1500ms
+  4130  Striking of Thunderbolt                         lvl 1    AREA      hit 6000ms
+  4131  Shock                                           lvl 1    AREA      hit 3600ms
+  4132  Spear: Pound the Ground                         lvl 1    AURA      hit 3000ms
+  4133  Angel Heal                                      lvl 1    ONE       hit 2000ms
+  4134  Seal Skill                                      lvl 1    ONE       hit 20000ms
+  4135  Baium Heal                                      lvl 1    SELF      hit 100ms
+  4136  Baium's Gift                                    lvl 1    ONE       hit 2000ms
+  4139  Boom Attack                                     lvl 12   AURA      hit 6000ms
+  4140  Contract Payment                                lvl 12   ONE       hit 0ms
+  4141  NPC Wind Fist                                   lvl 12   ONE       hit 1500ms
+  4142  NPC Fast Wind Fist                              lvl 12   ONE       hit 1100ms
+  4144  Mimic Strong Attack                             lvl 80   ONE       hit 1000ms
+  4145  Decrease P. Atk.                                lvl 3    ONE       hit 0ms
+  4146  Decrease P. Def.                                lvl 3    ONE       hit 0ms
+  4147  Area Dispel                                     lvl 7    ONE       hit 0ms
+  4148  Poison                                          lvl 12   ONE       hit 0ms
+  4149  Bleed                                           lvl 12   ONE       hit 0ms
+  4150  Flame                                           lvl 12   ONE       hit 0ms
+  4161  Summon PC                                       lvl 1    ONE       hit 2000ms
+  4162  Decrease Atk. Speed                             lvl 3    ONE       hit 0ms
+  4163  NPC Self Damage Shield                          lvl 12   SELF      hit 1800ms
+  4167  Curse of Fairy Mimyu                            lvl 1    ONE       hit 0ms
+  4168  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4169  Shock                                           lvl 12   ONE       hit 830ms
+  4170  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4171  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4172  Shock                                           lvl 12   AURA      hit 830ms
+  4173  BOSS Might                                      lvl 12   ONE       hit 1500ms
+  4174  BOSS Shield                                     lvl 12   ONE       hit 1500ms
+  4175  BOSS Haste                                      lvl 12   ONE       hit 1500ms
+  4176  BOSS Reflect Damage                             lvl 12   ONE       hit 1500ms
+  4177  BOSS Cancel Magic                               lvl 12   AURA      hit 1500ms
+  4178  BOSS Flamestrike                                lvl 12   AREA      hit 3300ms
+  4179  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4180  Shock                                           lvl 12   ONE       hit 830ms
+  4181  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4182  Poison                                          lvl 12   AURA      hit 3300ms
+  4183  Decrease P.Atk                                  lvl 12   AURA      hit 3300ms
+  4184  Decrease Atk.Speed                              lvl 12   AURA      hit 3300ms
+  4185  Sleep                                           lvl 12   ONE       hit 3300ms
+  4186  Hold                                            lvl 12   ONE       hit 3300ms
+  4187  Decrease Speed                                  lvl 12   ONE       hit 3300ms
+  4188  Bleed                                           lvl 12   ONE       hit 3300ms
+  4189  Paralysis                                       lvl 12   ONE       hit 3300ms
+  4190  Decrease MP                                     lvl 12   ONE       hit 3300ms
+  4191  BOSS Windstrike                                 lvl 12   ONE       hit 2500ms
+  4192  BOSS HP Drain                                   lvl 12   ONE       hit 2500ms
+  4193  BOSS Life Drain                                 lvl 12   ONE       hit 2500ms
+  4194  BOSS Aura Burn                                  lvl 12   ONE       hit 1000ms
+  4195  BOSS Twister                                    lvl 12   ONE       hit 2500ms
+  4196  Decrease Speed                                  lvl 12   ONE       hit 2300ms
+  4197  Hold                                            lvl 12   AREA      hit 3300ms
+  4198  Poison                                          lvl 12   ONE       hit 2500ms
+  4199  Decrease P.Atk                                  lvl 12   ONE       hit 2500ms
+  4200  Decrease Atk.Speed                              lvl 12   ONE       hit 2500ms
+  4201  Sleep                                           lvl 12   ONE       hit 2500ms
+  4202  Hold                                            lvl 12   ONE       hit 2500ms
+  4203  Decrease Speed                                  lvl 12   ONE       hit 2500ms
+  4204  Bleed                                           lvl 12   ONE       hit 2500ms
+  4205  Paralysis                                       lvl 12   ONE       hit 2500ms
+  4206  Decrease MP                                     lvl 12   ONE       hit 2500ms
+  4207  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4208  Shock                                           lvl 12   ONE       hit 4500ms
+  4209  BOSS Heal                                       lvl 12   ONE       hit 2000ms
+  4211  BOSS Might                                      lvl 12   CLAN      hit 1500ms
+  4212  BOSS Shield                                     lvl 12   CLAN      hit 1500ms
+  4213  BOSS Haste                                      lvl 12   CLAN      hit 1500ms
+  4214  BOSS Reflect Damage                             lvl 12   CLAN      hit 1500ms
+  4215  Raid Curse                                      lvl 1    ONE       hit 0ms
+  4216  Scatter Enemy                                   lvl 1    ONE       hit 2900ms
+  4218  Absorb HP MP                                    lvl 1    AREA      hit 2000ms
+  4219  Hold                                            lvl 1    ONE       hit 2000ms
+  4220  Deadly Dual-Sword Weapon                        lvl 1    ONE       hit 2100ms
+  4221  Deadly Dual-Sword Weapon: Range Attack          lvl 1    AREA      hit 1500ms
+  4222  Instant Move                                    lvl 1    SELF      hit 500ms
+  4223  Face Chance: Night to Day                       lvl 1    SELF      hit 1100ms
+  4224  Face Chance: Day to Night                       lvl 1    SELF      hit 1100ms
+  4225  Resist Shock Attacks                            lvl 5    SELF      hit 0ms
+  4226  Ban Heal                                        lvl 1    SELF      hit 0ms
+  4227  Zaken Regeneration                              lvl 1    SELF      hit 0ms
+  4228  NPC Double Dagger Attack                        lvl 12   ONE       hit 4000ms
+  4229  NPC Double Wind Fist                            lvl 12   ONE       hit 4000ms
+  4230  Wild Cannon                                     lvl 1    ONE       hit 10000ms
+  4232  NPC AE Strike                                   lvl 12   AREA      hit 1000ms
+  4233  Vampiric Attack                                 lvl 1    SELF      hit 0ms
+  4234  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4236  Decrease Heal                                   lvl 1    AREA      hit 4000ms
+  4237  Decrease Speed                                  lvl 1    FRONT_AREA  hit 4000ms
+  4238  Increase Re-use Time                            lvl 1    AURA      hit 4000ms
+  4239  Antharas Regeneration                           lvl 1    SELF      hit 0ms
+  4240  Antharas Regeneration                           lvl 1    SELF      hit 0ms
+  4241  Antharas Regeneration                           lvl 1    SELF      hit 0ms
+  4242  Zaken Regeneration                              lvl 1    SELF      hit 0ms
+  4244  NPC Wild Sweep                                  lvl 12   FRONT_AREA  hit 1000ms
+  4245  Mimic of Wrath                                  lvl 1    SELF      hit 0ms
+  4246  Strong in activity magic DOT                    lvl 1    SELF      hit 0ms
+  4256  100% stun resistance.                           lvl 1    SELF      hit 0ms
+  4267  Grade Penalty                                   lvl 10   SELF      hit 0ms
+  4268  Danger Area                                     lvl 1    SELF      hit 0ms
+  4269  Block All Chat                                  lvl 1    SELF      hit 0ms
+  4270  Weight Penalty                                  lvl 4    SELF      hit 0ms
+  4271  Increase Force                                  lvl 7    SELF      hit 0ms
+  4272  Greater Resist Bow Attack                       lvl 1    SELF      hit 0ms
+  4273  Resist Daggers                                  lvl 5    SELF      hit 0ms
+  4274  Blunt Weapon Weak Point                         lvl 5    SELF      hit 0ms
+  4275  Sacred Attack Weak Point                        lvl 5    SELF      hit 0ms
+  4276  Bow Weapon Weak Point                           lvl 5    SELF      hit 0ms
+  4277  Resist Poison Attacks                           lvl 5    SELF      hit 0ms
+  4278  Dark Attack                                     lvl 1    SELF      hit 0ms
+  4279  Fire Attack Weak Point                          lvl 5    SELF      hit 0ms
+  4280  Water Attack Weak Point                         lvl 5    SELF      hit 0ms
+  4281  Wind Attack Weak Point                          lvl 5    SELF      hit 0ms
+  4282  Earth Attack Weak Point                         lvl 5    SELF      hit 0ms
+  4283  Greater Resist Magic Attack                     lvl 1    SELF      hit 0ms
+  4284  Resist Bleed Attacks                            lvl 5    SELF      hit 0ms
+  4285  Resist Sleep Attacks                            lvl 5    SELF      hit 0ms
+  4286  Greater Resist Sleep                            lvl 1    SELF      hit 0ms
+  4287  Resist Hold Attacks                             lvl 5    SELF      hit 0ms
+  4288  Greater Resist Hold                             lvl 1    SELF      hit 0ms
+  4289  Wyvern Breath                                   lvl 1    AREA      hit 3600ms
+  4290  Race                                            lvl 1    NONE      hit 0ms
+  4291  Race                                            lvl 1    NONE      hit 0ms
+  4292  Race                                            lvl 1    NONE      hit 0ms
+  4293  Race                                            lvl 1    NONE      hit 0ms
+  4294  Race                                            lvl 1    NONE      hit 0ms
+  4295  Race                                            lvl 1    NONE      hit 0ms
+  4296  Race                                            lvl 1    NONE      hit 0ms
+  4297  Race                                            lvl 1    NONE      hit 0ms
+  4298  Race                                            lvl 1    NONE      hit 0ms
+  4299  Race                                            lvl 1    NONE      hit 0ms
+  4300  Race                                            lvl 1    NONE      hit 0ms
+  4301  Race                                            lvl 1    NONE      hit 0ms
+  4302  Race                                            lvl 1    NONE      hit 0ms
+  4303  Strong Type                                     lvl 1    SELF      hit 0ms
+  4304  Strong Type                                     lvl 1    SELF      hit 0ms
+  4305  Strong Type                                     lvl 1    SELF      hit 0ms
+  4306  Strong Type                                     lvl 1    SELF      hit 0ms
+  4307  Strong Type                                     lvl 1    SELF      hit 0ms
+  4308  Strong Type                                     lvl 1    SELF      hit 0ms
+  4309  Strong Type                                     lvl 1    SELF      hit 0ms
+  4310  Strong Type                                     lvl 1    SELF      hit 0ms
+  4311  Feeble Type                                     lvl 1    SELF      hit 0ms
+  4312  Heavy Armor                                     lvl 1    SELF      hit 0ms
+  4313  Light Armor                                     lvl 1    SELF      hit 0ms
+  4314  BOSS Holy Light Burst                           lvl 12   AREA      hit 2000ms
+  4315  Hold                                            lvl 12   AREA      hit 2500ms
+  4316  BOSS Lilim Drain                                lvl 12   AREA      hit 2500ms
+  4317  Increase Rage Might                             lvl 5    SELF      hit 1800ms
+  4318  Ultimate Buff                                   lvl 1    SELF      hit 0ms
+  4332  Mental Aegis                                    lvl 1    SELF      hit 0ms
+  4333  Resist Dark Attack                              lvl 5    SELF      hit 0ms
+  4334  SSQ Cancel                                      lvl 1    AREA      hit 0ms
+  4335  Sacred Attack                                   lvl 1    SELF      hit 0ms
+  4336  Dark Attack Weak Point                          lvl 5    SELF      hit 0ms
+  4337  Resist Sacred Attack                            lvl 5    SELF      hit 0ms
+  4339  Mimir's Elixir                                  lvl 1    ONE       hit 0ms
+  4340  Ultimate Buff, 2nd                              lvl 1    SELF      hit 0ms
+  4341  Ultimate Buff, 3rd                              lvl 1    SELF      hit 0ms
+  4376  Strong Resistance to P. Atk.                    lvl 1    SELF      hit 0ms
+  4377  Wield Temper                                    lvl 12   ONE       hit 1000ms
+  4378  NPC Self-Damage Shield                          lvl 12   SELF      hit 1800ms
+  4379  Resist Spear Weapons                            lvl 5    SELF      hit 0ms
+  4381  Magic Skill Block                               lvl 1    SELF      hit 0ms
+  4382  Curse of Lake Ghost                             lvl 12   ONE       hit 1000ms
+  4383  NPC Hate Stone                                  lvl 1    AURA      hit 0ms
+  4384  Scapegoat's Grace                               lvl 1    ONE       hit 0ms
+  4385  Scapegoat's Grace                               lvl 1    ONE       hit 0ms
+  4386  Scapegoat's Grace                               lvl 1    ONE       hit 0ms
+  4387  Scapegoat's Grace                               lvl 1    ONE       hit 0ms
+  4388  Resist Paralysis Attacks                        lvl 5    SELF      hit 0ms
+  4389  Resist Mental Attacks                           lvl 5    SELF      hit 0ms
+  4390  NPC Abnormal Immunity                           lvl 1    SELF      hit 0ms
+  4407  Strong Type Monster                             lvl 2    SELF      hit 0ms
+  4408  HP Increase (12x)                               lvl 20   SELF      hit 0ms
+  4409  MP Increase (12x)                               lvl 20   SELF      hit 0ms
+  4410  Ultra Strong P. Atk.                            lvl 22   SELF      hit 0ms
+  4411  Ultra Strong M. Atk.                            lvl 22   SELF      hit 0ms
+  4412  Ultra Strong P. Def.                            lvl 22   SELF      hit 0ms
+  4413  Ultra Strong M. Def.                            lvl 22   SELF      hit 0ms
+  4414  Heavy Armor Type                                lvl 3    SELF      hit 0ms
+  4415  Dual-Sword Weapons                              lvl 20   SELF      hit 0ms
+  4416  Undead                                          lvl 24   SELF      hit 0ms
+  4417  Animals                                         lvl 38   SELF      hit 0ms
+  4418  Fire Attacks                                    lvl 5    SELF      hit 0ms
+  4419  Water Attacks                                   lvl 5    SELF      hit 0ms
+  4420  Wind Attacks                                    lvl 5    SELF      hit 0ms
+  4421  Earth Attacks                                   lvl 5    SELF      hit 0ms
+  4422  Dark Attacks                                    lvl 5    SELF      hit 0ms
+  4423  Sacred Attacks                                  lvl 5    SELF      hit 0ms
+  4424  Resist Hand-to-hand Weapons                     lvl 5    SELF      hit 0ms
+  4425  Resist Blunt Weapons                            lvl 5    SELF      hit 0ms
+  4426  Resist Dual-Sword Weapons                       lvl 5    SELF      hit 0ms
+  4427  Resist Swords                                   lvl 5    SELF      hit 0ms
+  4428  Resist Two-handed Weapons                       lvl 5    SELF      hit 0ms
+  4429  Greater Resist Fire Attacks                     lvl 5    SELF      hit 0ms
+  4430  Greater Resist Water Attacks                    lvl 5    SELF      hit 0ms
+  4431  Greater Resist Wind Attacks                     lvl 5    SELF      hit 0ms
+  4432  Greater Resist Earth Attacks                    lvl 5    SELF      hit 0ms
+  4433  Greater Resist Sacred Attacks                   lvl 5    SELF      hit 0ms
+  4434  Greater Resist Dark Attacks                     lvl 5    SELF      hit 0ms
+  4435  Greater Resist Shock                            lvl 5    SELF      hit 0ms
+  4436  Greater Resist Poison                           lvl 5    SELF      hit 0ms
+  4437  Greater Resist Bleeding                         lvl 5    SELF      hit 0ms
+  4438  Greater Resist Sleep                            lvl 5    SELF      hit 0ms
+  4439  Greater Resist Hold                             lvl 5    SELF      hit 0ms
+  4440  Greater Resist Paralysis                        lvl 5    SELF      hit 0ms
+  4441  Greater Resist Mental Derangement               lvl 5    SELF      hit 0ms
+  4442  Greater Resist Hand-to-hand Weapons             lvl 5    SELF      hit 0ms
+  4443  Greater Resist Blunt Weapons                    lvl 5    SELF      hit 0ms
+  4444  Greater Resist Bow Weapons                      lvl 5    SELF      hit 0ms
+  4445  Greater Resist Spear Weapons                    lvl 5    SELF      hit 0ms
+  4446  Greater Resist Dual-Sword Weapons               lvl 5    SELF      hit 0ms
+  4447  Greater Resist Swords                           lvl 5    SELF      hit 0ms
+  4448  Greater Resist Daggers                          lvl 5    SELF      hit 0ms
+  4449  Greater Resist Two-handed Weapons               lvl 5    SELF      hit 0ms
+  4450  Shock Attack Weak Point                         lvl 5    SELF      hit 0ms
+  4451  Poison Attack Weak Point                        lvl 5    SELF      hit 0ms
+  4452  Bleed Attack Weak Point                         lvl 5    SELF      hit 0ms
+  4453  Sleep Attack Weak Point                         lvl 5    SELF      hit 0ms
+  4454  Hold Attack Weak Point                          lvl 5    SELF      hit 0ms
+  4455  Paralysis Attack Weak Point                     lvl 5    SELF      hit 0ms
+  4456  Mental Attack Weak Point                        lvl 5    SELF      hit 0ms
+  4457  Hand-to-hand Weapon Weak Point                  lvl 5    SELF      hit 0ms
+  4458  Spear Weapon Weak Point                         lvl 5    SELF      hit 0ms
+  4459  Dual-Sword Weapon Weak Point                    lvl 5    SELF      hit 0ms
+  4460  Sword Weak Point                                lvl 5    SELF      hit 0ms
+  4461  Dagger Weak Point                               lvl 5    SELF      hit 0ms
+  4462  Two-handed Weapon Weak Point                    lvl 5    SELF      hit 0ms
+  4469  Potion Drinking                                 lvl 1    SELF      hit 0ms
+  4470  NPC Spoils                                      lvl 1    ONE       hit 1800ms
+  4472  NPC Strike Golem                                lvl 12   ONE       hit 2500ms
+  4473  Shock                                           lvl 12   ONE       hit 4000ms
+  4474  Area Heal - Per                                 lvl 5    ONE       hit 0ms
+  4478  Ice Fairy Aqua Splash                           lvl 1    AREA      hit 3300ms
+  4482  Ice Fairy Silence                               lvl 1    ONE       hit 100ms
+  4485  Eating Follower                                 lvl 1    ONE       hit 3000ms
+  4488  Hold                                            lvl 12   ONE       hit 0ms
+  4489  NPC Death MP Bomb                               lvl 12   AURA      hit 0ms
+  4491  Holy Weapon                                     lvl 12   AREA      hit 3200ms
+  4492  Enlarging Head Curse                            lvl 12   ONE       hit 1000ms
+  4493  NPC Debuff Shield Slow                          lvl 12   ONE       hit 2000ms
+  4494  Raid Boss                                       lvl 1    SELF      hit 0ms
+  4495  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4496  Shock                                           lvl 12   ONE       hit 4500ms
+  4497  Treasure Chest - Level 21                       lvl 1    SELF      hit 0ms
+  4498  Treasure Chest - Level 22                       lvl 1    SELF      hit 0ms
+  4499  Treasure Chest - Level 25                       lvl 1    SELF      hit 0ms
+  4500  Treasure Chest - Level 27                       lvl 1    SELF      hit 0ms
+  4501  Treasure Chest - Level 29                       lvl 1    SELF      hit 0ms
+  4502  Treasure Chest - Level 31                       lvl 1    SELF      hit 0ms
+  4503  Treasure Chest - Level 32                       lvl 1    SELF      hit 0ms
+  4504  Treasure Chest - Level 33                       lvl 1    SELF      hit 0ms
+  4505  Treasure Chest - Level 35                       lvl 1    SELF      hit 0ms
+  4506  Treasure Chest - Level 39                       lvl 1    SELF      hit 0ms
+  4507  Treasure Chest - Level 42                       lvl 1    SELF      hit 0ms
+  4508  Treasure Chest - Level 43                       lvl 1    SELF      hit 0ms
+  4509  Treasure Chest - Level 45                       lvl 1    SELF      hit 0ms
+  4510  Treasure Chest - Level 47                       lvl 1    SELF      hit 0ms
+  4511  Treasure Chest - Level 49                       lvl 1    SELF      hit 0ms
+  4512  Treasure Chest - Level 52                       lvl 1    SELF      hit 0ms
+  4513  Squash - Level up                               lvl 1    SELF      hit 0ms
+  4514  Squash - Poisoned                               lvl 1    SELF      hit 0ms
+  4517  Quest - BOSS Defend                             lvl 1    SELF      hit 0ms
+  4518  Quest - BOSS Rampage                            lvl 1    SELF      hit 0ms
+  4519  Quest - BOSS Defend                             lvl 1    SELF      hit 0ms
+  4520  Quest - BOSS Rampage                            lvl 1    SELF      hit 0ms
+  4521  Quest - BOSS Resist non Bow Weapon              lvl 1    SELF      hit 0ms
+  4525  Quest - BOSS Defend                             lvl 1    SELF      hit 0ms
+  4532  Quest - BOSS Reflect                            lvl 1    SELF      hit 0ms
+  4533  Dance of Resistance                             lvl 1    ONE       hit 1500ms
+  4534  Dance of Nihil                                  lvl 1    ONE       hit 1500ms
+  4535  Dance of Weakness                               lvl 1    ONE       hit 1500ms
+  4536  Song of Seduce                                  lvl 1    ONE       hit 1500ms
+  4537  Song of Sweet Whisper                           lvl 1    ONE       hit 1500ms
+  4538  Song of Temptation                              lvl 1    ONE       hit 1500ms
+  4542  Quest - Henchman 90% Sleep and Shock Weakness   lvl 1    SELF      hit 0ms
+  4543  Quest - BOSS Shock Weakness                     lvl 1    SELF      hit 0ms
+  4545  Quest - BOSS Reflect                            lvl 1    SELF      hit 0ms
+  4546  Quest - Commune to Slate                        lvl 1    ONE       hit 0ms
+  4547  Gaze of Watcher                                 lvl 1    ONE       hit 0ms
+  4548  Quest - Dispel Watcher Gaze                     lvl 1    ONE       hit 0ms
+  4549  Quest - Unsealed Altar                          lvl 1    SELF      hit 3000ms
+  4550  Quest - Cursed Altar                            lvl 1    SELF      hit 3000ms
+  4555  NPC Resist Mutant                               lvl 1    SELF      hit 0ms
+  4559  Hot Spring Illusion                             lvl 1    ONE       hit 0ms
+  4572  NPC Triple Sonic Slash                          lvl 12   ONE       hit 1800ms
+  4573  NPC Sonic Blaster                               lvl 12   ONE       hit 1900ms
+  4574  NPC Sonic Storm                                 lvl 12   AREA      hit 1900ms
+  4579  Bleed                                           lvl 12   ONE       hit 1800ms
+  4580  Decrease P.Atk                                  lvl 12   ONE       hit 1800ms
+  4581  Hold                                            lvl 12   ONE       hit 1800ms
+  4582  Poison                                          lvl 12   ONE       hit 1800ms
+  4583  Decrease Speed                                  lvl 12   ONE       hit 4000ms
+  4584  Reducing P. Def Shock                           lvl 12   ONE       hit 1800ms
+  4599  Decrease Speed                                  lvl 12   ONE       hit 1800ms
+  4600  Reducing P. Def Shock                           lvl 12   ONE       hit 1800ms
+  4605  Surrender To Fire                               lvl 12   FRONT_AREA  hit 1800ms
+  4606  Poison                                          lvl 12   ONE       hit 1800ms
+  4607  Magma Attack                                    lvl 1    ONE       hit 1500ms
+  4612  NPC Wide Wild Sweep                             lvl 12   FRONT_AREA  hit 1800ms
+  4614  NPC Death Bomb                                  lvl 12   AURA      hit 0ms
+  4628  Mysterious Aura                                 lvl 1    SELF      hit 0ms
+  4641  NPC Super Strike                                lvl 12   ONE       hit 1800ms
+  4642  NPC Fast Spell Casting                          lvl 3    SELF      hit 0ms
+  4643  Decrease Speed                                  lvl 12   ONE       hit 1800ms
+  4644  Area Buff - Haste                               lvl 2    ONE       hit 0ms
+  4645  Area Buff - Focus                               lvl 3    ONE       hit 0ms
+  4646  Area Buff - Death Whisper                       lvl 3    ONE       hit 0ms
+  4647  Area Buff - Might                               lvl 3    ONE       hit 0ms
+  4648  Area Buff - Shield                              lvl 3    ONE       hit 0ms
+  4663  NPC Hate                                        lvl 1    ONE       hit 0ms
+  4670  Short Shock                                     lvl 12   ONE       hit 1800ms
+  4671  AV - Teleport                                   lvl 1    ONE       hit 0ms
+  4672  NPC Corpse Remove                               lvl 1    SELF      hit 0ms
+  4679  Valakas                                         lvl 1    SELF      hit 0ms
+  4680  Valakas Lava Skin                               lvl 1    SELF      hit 3300ms
+  4681  Valakas Trample                                 lvl 1    FRONT_AREA  hit 1000ms
+  4682  Valakas Trample                                 lvl 1    FRONT_AREA  hit 1000ms
+  4683  Valakas Dragon Breath                           lvl 1    FRONT_AREA  hit 3000ms
+  4684  Valakas Dragon Breath                           lvl 1    FRONT_AREA  hit 3000ms
+  4685  Valakas Tail Stomp                              lvl 1    BEHIND_AURA  hit 3000ms
+  4686  Valakas Tail Stomp                              lvl 1    BEHIND_AURA  hit 0ms
+  4687  Valakas Tail Stomp                              lvl 1    SELF      hit 3000ms
+  4688  Valakas Shock                                   lvl 1    BEHIND_AURA  hit 3000ms
+  4689  Valakas Fear                                    lvl 2    FRONT_AURA  hit 0ms
+  4690  Valakas Meteor Storm                            lvl 1    AURA      hit 8000ms
+  4691  Valakas Regeneration                            lvl 4    SELF      hit 0ms
+  4694  Ultimate Debuff                                 lvl 1    ONE       hit 0ms
+  4695  Ultimate Debuff                                 lvl 1    ONE       hit 0ms
+  4696  Ultimate Debuff                                 lvl 1    ONE       hit 0ms
+  4708  Cursed Strike                                   lvl 10   ONE       hit 2000ms
+  4709  Cursed Blow                                     lvl 10   ONE       hit 2000ms
+  4710  Wild Stun                                       lvl 12   ONE       hit 1100ms
+  4711  Wild Defense                                    lvl 12   SELF      hit 1100ms
+  4714  Twilight Dragon                                 lvl 1    SELF      hit 0ms
+  4715  Wind Dragon                                     lvl 1    SELF      hit 0ms
+  4716  Star Dragon                                     lvl 1    SELF      hit 0ms
+  4719  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4720  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4721  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4722  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4723  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4724  Shock                                           lvl 12   ONE       hit 830ms
+  4725  Shock                                           lvl 12   ONE       hit 830ms
+  4726  Shock                                           lvl 12   ONE       hit 830ms
+  4727  Shock                                           lvl 12   ONE       hit 830ms
+  4728  Shock                                           lvl 12   ONE       hit 830ms
+  4729  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4730  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4731  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4732  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4733  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4734  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4735  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4736  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4737  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4738  BOSS Spinning Slash                             lvl 12   AURA      hit 830ms
+  4739  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4740  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4741  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4742  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4743  BOSS Strike                                     lvl 12   ONE       hit 830ms
+  4744  Shock                                           lvl 12   ONE       hit 830ms
+  4745  Shock                                           lvl 12   ONE       hit 830ms
+  4746  Shock                                           lvl 12   ONE       hit 830ms
+  4747  Shock                                           lvl 12   ONE       hit 830ms
+  4748  Shock                                           lvl 12   ONE       hit 830ms
+  4749  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4750  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4751  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4752  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4753  BOSS Mortal Blow                                lvl 12   ONE       hit 830ms
+  4754  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4755  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4756  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4757  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4758  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4759  Shock                                           lvl 12   ONE       hit 4500ms
+  4760  Shock                                           lvl 12   ONE       hit 4500ms
+  4761  Shock                                           lvl 12   ONE       hit 4500ms
+  4762  Shock                                           lvl 12   ONE       hit 4500ms
+  4763  Shock                                           lvl 12   ONE       hit 4500ms
+  4764  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4765  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4766  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4767  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4768  BOSS Power Shot                                 lvl 12   ONE       hit 4500ms
+  4769  Shock                                           lvl 12   ONE       hit 4500ms
+  4770  Shock                                           lvl 12   ONE       hit 4500ms
+  4771  Shock                                           lvl 12   ONE       hit 4500ms
+  4772  Shock                                           lvl 12   ONE       hit 4500ms
+  4773  Shock                                           lvl 12   ONE       hit 4500ms
+  4774  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4775  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4776  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4777  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4778  BOSS Spear Attack                               lvl 12   ONE       hit 4500ms
+  4779  BOSS Heal                                       lvl 12   CLAN_MEMBER  hit 2000ms
+  4780  BOSS Heal                                       lvl 12   CLAN_MEMBER  hit 2000ms
+  4781  BOSS Heal                                       lvl 12   CLAN_MEMBER  hit 2000ms
+  4782  BOSS Heal                                       lvl 12   CLAN_MEMBER  hit 2000ms
+  4783  BOSS Heal                                       lvl 12   CLAN_MEMBER  hit 2000ms
+  4789  NPC High Level                                  lvl 10   SELF      hit 0ms
+  4790  Raid Boss - Level 23                            lvl 1    SELF      hit 0ms
+  4791  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4792  Raid Boss - Level 42                            lvl 1    SELF      hit 0ms
+  4793  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4794  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4795  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4796  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4797  Raid Boss - Level 34                            lvl 1    SELF      hit 0ms
+  4798  Raid Boss - Level 34                            lvl 1    SELF      hit 0ms
+  4799  Raid Boss - Level 49                            lvl 1    SELF      hit 0ms
+  4800  Raid Boss - Level 53                            lvl 1    SELF      hit 0ms
+  4801  Raid Boss - Level 58                            lvl 1    SELF      hit 0ms
+  4802  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4803  Raid Boss - Level 28                            lvl 1    SELF      hit 0ms
+  4804  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4805  Raid Boss - Level 47                            lvl 1    SELF      hit 0ms
+  4806  Raid Boss - Level 49                            lvl 1    SELF      hit 0ms
+  4807  Raid Boss - Level 51                            lvl 1    SELF      hit 0ms
+  4808  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4809  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4810  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4811  Raid Boss - Level 24                            lvl 1    SELF      hit 0ms
+  4812  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4813  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4814  Raid Boss - Level 52                            lvl 1    SELF      hit 0ms
+  4815  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4816  Raid Boss - Level 69                            lvl 1    SELF      hit 0ms
+  4817  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4818  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4819  Raid Boss - Level 39                            lvl 1    SELF      hit 0ms
+  4820  Raid Boss - Level 44                            lvl 1    SELF      hit 0ms
+  4821  Raid Boss - Level 43                            lvl 1    SELF      hit 0ms
+  4822  Raid Boss - Level 59                            lvl 1    SELF      hit 0ms
+  4823  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4824  Raid Boss - Level 29                            lvl 1    SELF      hit 0ms
+  4825  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4826  Raid Boss - Level 44                            lvl 1    SELF      hit 0ms
+  4827  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4828  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4829  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4830  Raid Boss - Level 74                            lvl 1    SELF      hit 0ms
+  4831  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4832  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4833  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4834  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4835  Raid Boss - Level 56                            lvl 1    SELF      hit 0ms
+  4836  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4837  Raid Boss - Level 79                            lvl 1    SELF      hit 0ms
+  4838  Raid Boss - Level 24                            lvl 1    SELF      hit 0ms
+  4839  Raid Boss - Level 33                            lvl 1    SELF      hit 0ms
+  4840  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4841  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4842  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4843  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4844  Raid Boss - Level 78                            lvl 1    SELF      hit 0ms
+  4845  Raid Boss - Level 21                            lvl 1    SELF      hit 0ms
+  4846  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4847  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4848  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4849  Raid Boss - Level 48                            lvl 1    SELF      hit 0ms
+  4850  Raid Boss - Level 54                            lvl 1    SELF      hit 0ms
+  4851  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4852  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4853  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4854  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4855  Raid Boss - Level 38                            lvl 1    SELF      hit 0ms
+  4856  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4857  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4858  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4859  Raid Boss - Level 59                            lvl 1    SELF      hit 0ms
+  4860  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4861  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4862  Raid Boss - Level 34                            lvl 1    SELF      hit 0ms
+  4863  Raid Boss - Level 43                            lvl 1    SELF      hit 0ms
+  4864  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4865  Raid Boss - Level 36                            lvl 1    SELF      hit 0ms
+  4866  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4867  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4868  Raid Boss - Level 73                            lvl 1    SELF      hit 0ms
+  4869  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4870  Raid Boss - Level 62                            lvl 1    SELF      hit 0ms
+  4871  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4872  Raid Boss - Level 57                            lvl 1    SELF      hit 0ms
+  4873  Raid Boss - Level 69                            lvl 1    SELF      hit 0ms
+  4874  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4875  Raid Boss - Level 72                            lvl 1    SELF      hit 0ms
+  4876  Raid Boss - Level 59                            lvl 1    SELF      hit 0ms
+  4877  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4878  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4879  Raid Boss - Level 78                            lvl 1    SELF      hit 0ms
+  4880  Raid Boss - Level 72                            lvl 1    SELF      hit 0ms
+  4881  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4882  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4883  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4884  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4885  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4886  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4887  Raid Boss - Level 67                            lvl 1    SELF      hit 0ms
+  4888  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4889  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4890  Raid Boss - Level 28                            lvl 1    SELF      hit 0ms
+  4891  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4892  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4893  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4894  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4895  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4896  Raid Boss - Level 75                            lvl 1    SELF      hit 0ms
+  4897  Raid Boss - Level 80                            lvl 1    SELF      hit 0ms
+  4898  Raid Boss - Level 80                            lvl 1    SELF      hit 0ms
+  4899  Raid Boss - Level 20                            lvl 1    SELF      hit 0ms
+  4900  Raid Boss - Level 78                            lvl 1    SELF      hit 0ms
+  4901  Raid Boss - Level 78                            lvl 1    SELF      hit 0ms
+  4902  Raid Boss - Level 74                            lvl 1    SELF      hit 0ms
+  4903  Raid Boss - Level 80                            lvl 1    SELF      hit 0ms
+  4904  Raid Boss - Level 84                            lvl 1    SELF      hit 0ms
+  4905  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  4906  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  4907  Raid Boss - Level 80                            lvl 1    SELF      hit 0ms
+  4908  Raid Boss - Level 84                            lvl 1    SELF      hit 0ms
+  4909  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  4910  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  4911  Raid Boss - Level 85                            lvl 1    SELF      hit 0ms
+  4912  Raid Boss - Level 66                            lvl 1    SELF      hit 0ms
+  4913  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4914  Raid Boss - Level 71                            lvl 1    SELF      hit 0ms
+  4915  Raid Boss - Level 28                            lvl 1    SELF      hit 0ms
+  4916  Raid Boss - Level 38                            lvl 1    SELF      hit 0ms
+  4917  Raid Boss - Level 48                            lvl 1    SELF      hit 0ms
+  4918  Raid Boss - Level 58                            lvl 1    SELF      hit 0ms
+  4919  Raid Boss - Level 68                            lvl 1    SELF      hit 0ms
+  4920  Raid Boss - Level 78                            lvl 1    SELF      hit 0ms
+  4921  Raid Boss - Level 81                            lvl 1    SELF      hit 0ms
+  4922  Raid Boss - Level 81                            lvl 1    SELF      hit 0ms
+  4923  Raid Boss - Level 81                            lvl 1    SELF      hit 0ms
+  4924  Raid Boss - Level 81                            lvl 1    SELF      hit 0ms
+  4925  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  4926  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4927  Raid Boss - Level 21                            lvl 1    SELF      hit 0ms
+  4928  Raid Boss - Level 26                            lvl 1    SELF      hit 0ms
+  4929  Raid Boss - Level 23                            lvl 1    SELF      hit 0ms
+  4930  Raid Boss - Level 26                            lvl 1    SELF      hit 0ms
+  4931  Raid Boss - Level 23                            lvl 1    SELF      hit 0ms
+  4932  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4933  Raid Boss - Level 20                            lvl 1    SELF      hit 0ms
+  4934  Raid Boss - Level 21                            lvl 1    SELF      hit 0ms
+  4935  Raid Boss - Level 20                            lvl 1    SELF      hit 0ms
+  4936  Raid Boss - Level 21                            lvl 1    SELF      hit 0ms
+  4937  Raid Boss - Level 34                            lvl 1    SELF      hit 0ms
+  4938  Raid Boss - Level 36                            lvl 1    SELF      hit 0ms
+  4939  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4940  Raid Boss - Level 33                            lvl 1    SELF      hit 0ms
+  4941  Raid Boss - Level 32                            lvl 1    SELF      hit 0ms
+  4942  Raid Boss - Level 38                            lvl 1    SELF      hit 0ms
+  4943  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4944  Raid Boss - Level 35                            lvl 1    SELF      hit 0ms
+  4945  Raid Boss - Level 32                            lvl 1    SELF      hit 0ms
+  4946  Raid Boss - Level 33                            lvl 1    SELF      hit 0ms
+  4947  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  4948  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4949  Raid Boss - Level 47                            lvl 1    SELF      hit 0ms
+  4950  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4951  Raid Boss - Level 44                            lvl 1    SELF      hit 0ms
+  4952  Raid Boss - Level 48                            lvl 1    SELF      hit 0ms
+  4953  Raid Boss - Level 61                            lvl 1    SELF      hit 0ms
+  4954  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4955  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4956  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4957  Raid Boss - Level 44                            lvl 1    SELF      hit 0ms
+  4958  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4959  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4960  Raid Boss - Level 71                            lvl 1    SELF      hit 0ms
+  4961  Raid Boss - Level 79                            lvl 1    SELF      hit 0ms
+  4962  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4963  Raid Boss - Level 49                            lvl 1    SELF      hit 0ms
+  4964  Raid Boss - Level 51                            lvl 1    SELF      hit 0ms
+  4965  Raid Boss - Level 56                            lvl 1    SELF      hit 0ms
+  4966  Raid Boss - Level 64                            lvl 1    SELF      hit 0ms
+  4967  Raid Boss - Level 66                            lvl 1    SELF      hit 0ms
+  4968  Raid Boss - Level 52                            lvl 1    SELF      hit 0ms
+  4969  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4970  Raid Boss - Level 65                            lvl 1    SELF      hit 0ms
+  4971  Raid Boss - Level 53                            lvl 1    SELF      hit 0ms
+  4972  Raid Boss - Level 50                            lvl 1    SELF      hit 0ms
+  4973  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4974  Raid Boss - Level 40                            lvl 1    SELF      hit 0ms
+  4975  Raid Boss - Level 55                            lvl 1    SELF      hit 0ms
+  4976  Raid Boss - Level 52                            lvl 1    SELF      hit 0ms
+  4977  Raid Boss - Level 45                            lvl 1    SELF      hit 0ms
+  4978  Raid Boss - Level 81                            lvl 1    SELF      hit 0ms
+  4979  Raid Boss - Level 82                            lvl 1    SELF      hit 0ms
+  4980  Raid Boss - Level 83                            lvl 1    SELF      hit 0ms
+  4981  Raid Boss - Level 84                            lvl 1    SELF      hit 0ms
+  4982  Raid Boss - Level 85                            lvl 1    SELF      hit 0ms
+  4983  Raid Boss - Level 25                            lvl 1    SELF      hit 0ms
+  4984  Raid Boss - Level 44                            lvl 1    SELF      hit 0ms
+  4985  Raid Boss - Level 70                            lvl 1    SELF      hit 0ms
+  4986  Raid Boss - Level 72                            lvl 1    SELF      hit 0ms
+  4987  Raid Boss - Level 74                            lvl 1    SELF      hit 0ms
+  4988  Raid Boss - Level 76                            lvl 1    SELF      hit 0ms
+  4989  Npc - Hot Spring Nectar                         lvl 1    SELF      hit 0ms
+  4990  Npc - Hot Spring Mineral                        lvl 1    SELF      hit 0ms
+  4991  Hot Spring Sulfur                               lvl 1    SELF      hit 0ms
+  4992  Shock                                           lvl 1    SELF      hit 0ms
+  4993  Venom - Strike                                  lvl 1    ONE       hit 830ms
+  4994  Venom - Sonic Storm                             lvl 1    AREA      hit 1900ms
+  4995  Venom - Teleport                                lvl 1    ONE       hit 2900ms
+  4996  Venom - Range Teleport                          lvl 1    AREA      hit 2900ms
+  4997  Lidia - Regen                                   lvl 1    SELF      hit 0ms
+  4998  Lidia - Twister                                 lvl 1    SELF      hit 2500ms
+  4999  Lidia - Range Life Drain                        lvl 1    SELF      hit 2000ms
+  5000  Alfred - Super Strike                           lvl 1    ONE       hit 2000ms
+  5001  Alfred - Life Drain                             lvl 1    ONE       hit 2500ms
+  5002  Giselle - Vampiric Rage                         lvl 1    SELF      hit 2000ms
+  5003  Giselle - Tempest                               lvl 1    AREA      hit 5000ms
+  5004  Dimensional Shock                               lvl 1    AURA      hit 5800ms
+  5006  Frintezza's Melody                              lvl 1    SELF      hit 34000ms
+  5007  Frintezza's Healing Rhapsody                    lvl 5    SELF      hit 35000ms
+  5008  Frintezza's Concert Hall Melody                 lvl 5    ONE       hit 1000ms
+  5009  Frintezza's Ghostly Fighter                     lvl 1    AREA      hit 2500ms
+  5011  Frintezza's Bomber Ghost                        lvl 1    AURA      hit 1000ms
+  5012  Breath of Scarlet                               lvl 1    ONE       hit 1500ms
+  5014  Frintezza's Daemon Attack                       lvl 3    ONE       hit 1300ms
+  5015  Frintezza's Daemon Charge                       lvl 6    ONE       hit 1500ms
+  5016  Yoke of Scarlet                                 lvl 1    AREA      hit 3000ms
+  5017  Frintezza's Daemon Morph                        lvl 1    SELF      hit 1000ms
+  5018  Frintezza's Daemon Field                        lvl 2    AURA      hit 7000ms
+  5019  Frintezza's Daemon Drain                        lvl 1    AURA      hit 6000ms
+  5020  Forced Action                                   lvl 1    NONE      hit 2000ms
+  5025  Raid Boss - Level 30                            lvl 1    SELF      hit 0ms
+  5026  Raid Boss - Level 39                            lvl 1    SELF      hit 0ms
+  5027  Raid Boss - Level 37                            lvl 1    SELF      hit 0ms
+  5028  Raid Boss - Level 53                            lvl 1    SELF      hit 0ms
+  5029  Raid Boss - Level 52                            lvl 1    SELF      hit 0ms
+  5030  Raid Boss - Level 59                            lvl 1    SELF      hit 0ms
+  5031  Raid Boss - Level 80                            lvl 1    SELF      hit 0ms
+  5032  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  5033  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  5034  Raid Boss - Level 73                            lvl 1    SELF      hit 0ms
+  5035  Raid Boss - Level 76                            lvl 1    SELF      hit 0ms
+  5036  Raid Boss - Level 60                            lvl 1    SELF      hit 0ms
+  5037  Decrease Casting Speed                          lvl 3    NONE      hit 0ms
+  5038  Summon PVP Penalty                              lvl 16   SELF      hit 0ms
+  5039  NPC - Ultra Bomb                                lvl 1    NONE      hit 0ms
+  5041  Charm of Courage                                lvl 1    SELF      hit 0ms
+  5042  NPC Dispel Bomb                                 lvl 12   AURA      hit 0ms
+  5043  NPC Super Sonic Blaster                         lvl 12   ONE       hit 1900ms
+  5044  NPC Ultimate Defense                            lvl 2    SELF      hit 100ms
+  5045  Castle Power Strike                             lvl 12   ONE       hit 2000ms
+  5046  Castle Power Shot                               lvl 12   ONE       hit 4000ms
+  5047  Castle Spinning Slash                           lvl 12   NONE      hit 2000ms
+  5048  Castle Burst Shot                               lvl 12   NONE      hit 4000ms
+  5049  Castle Blow                                     lvl 12   NONE      hit 2000ms
+  5073  Quest Trap - Power Shot                         lvl 12   ONE       hit 1500ms
+  5074  The Victor of War                               lvl 1    SELF      hit 0ms
+  5075  The Vanquished of War                           lvl 1    SELF      hit 0ms
+  5076  Death Penalty                                   lvl 15   SELF      hit 0ms
+  5077  NPC Remove Death Penalty                        lvl 1    NONE      hit 500ms
+  5078  Frintezza Critical Power                        lvl 1    SELF      hit 0ms
+  5079  NPC Focused Haste                               lvl 1    CLAN      hit 3000ms
+  5080  NPC Mighty Haste                                lvl 1    CLAN      hit 3000ms
+  5081  Silence                                         lvl 4    ONE       hit 1500ms
+  5082  NPC Spinning, Slashing Trick                    lvl 4    AURA      hit 1500ms
+  5083  Shock                                           lvl 4    ONE       hit 1500ms
+  5084  NPC Blinding Blow                               lvl 4    ONE       hit 1080ms
+  5087  Berserk                                         lvl 2    SELF      hit 4000ms
+  5088  Signal                                          lvl 1    AURA      hit 1000ms
+  5089  Representation - Enter the Sailren Nest Quest   lvl 1    ONE       hit 1000ms
+  5090  Sailren Production                              lvl 1    SELF      hit 1000ms
+  5091  Sailren Production 2                            lvl 1    SELF      hit 1000ms
+  5092  Antharas Terror                                 lvl 1    AREA      hit 4000ms
+  5093  Antharas Meteor                                 lvl 1    AREA      hit 8000ms
+  5094  Antharas Subordinate Suicide                    lvl 1    AURA      hit 100ms
+  5095  Antharas Subordinate Melee Attack               lvl 1    ONE       hit 1500ms
+  5096  Antharas Subordinate Remote Attack              lvl 1    ONE       hit 3000ms
+  5097  Antharas Subordinate Suicide (Narrow Range)     lvl 1    AURA      hit 100ms
+  5098  Capture Penalty                                 lvl 2    NONE      hit 0ms
+  5103  Production - Clan / Transfer                    lvl 1    ONE       hit 1000ms
+  5104  Battle Force                                    lvl 3    SELF      hit 0ms
+  5105  Spell Force                                     lvl 3    SELF      hit 0ms
+  5106  Capture A State                                 lvl 4    ONE       hit 0ms
+  5107  Capture B State                                 lvl 4    ONE       hit 0ms
+  5108  Capture C State                                 lvl 4    ONE       hit 0ms
+  5110  Cannon Fodder                                   lvl 1    AREA      hit 10000ms
+  5111  Big Bang                                        lvl 1    AREA      hit 10000ms
+  5112  Shock                                           lvl 12   AURA      hit 1000ms
+  5113  Castle Self AE Dispell Buff                     lvl 12   AURA      hit 6000ms
+  5115  Cubic Hate                                      lvl 4    ONE       hit 0ms
+  5117  Stun                                            lvl 1    AURA      hit 2500ms
+  5118  Cancel Sailren Use                              lvl 1    AURA      hit 2500ms
+  5119  Bleed                                           lvl 1    FRONT_AREA  hit 1080ms
+  5120  Shock                                           lvl 1    ONE       hit 1000ms
+  5121  Production - Corpse Revival                     lvl 1    SELF      hit 0ms
+  5122  Sailren Use Might                               lvl 1    SELF      hit 2500ms
+  5123  Maximum Defense                                 lvl 1    AURA      hit 0ms
+  5124  Anti-Music                                      lvl 1    AURA      hit 0ms
+  5125  Maximum Resist Status                           lvl 1    AURA      hit 0ms
+  5126  Maximum Recovery                                lvl 1    AURA      hit 0ms
+  5127  Recover Force                                   lvl 1    AURA      hit 0ms
+  5128  Maximum Archery                                 lvl 1    ONE       hit 0ms
+  5129  Smokescreen                                     lvl 1    ONE       hit 0ms
+  5130  Volcano                                         lvl 1    ONE       hit 0ms
+  5131  Tsunami                                         lvl 1    ONE       hit 0ms
+  5132  Cyclone                                         lvl 1    ONE       hit 0ms
+  5133  Gehenna                                         lvl 1    ONE       hit 0ms
+  5134  Anti-Summoning Field                            lvl 1    ONE       hit 0ms
+  5135  Slash                                           lvl 1    ONE       hit 1080ms
+  5136  Spin Slash                                      lvl 1    AURA      hit 1070ms
+  5138  Whiplash                                        lvl 1    ONE       hit 1080ms
+  5141  Dicing Death                                    lvl 1    ONE       hit 1080ms
+  5143  Sailren Use Blow                                lvl 1    ONE       hit 2500ms
+  5144  Mirage                                          lvl 1    ONE       hit 0ms
+  5145  Day of Doom                                     lvl 1    ONE       hit 0ms
+  5146  Heal                                            lvl 10   SELF      hit 5000ms
+  5147  Blessed Body                                    lvl 10   SELF      hit 4000ms
+  5148  Prayer                                          lvl 10   SELF      hit 4000ms
+  5149  Recharge                                        lvl 10   SELF      hit 6000ms
+  5150  Blessed Soul                                    lvl 10   SELF      hit 4000ms
+  5151  Mana Gain                                       lvl 10   SELF      hit 4000ms
+  5152  Ritual                                          lvl 10   SELF      hit 5000ms
+  5153  Cheer                                           lvl 10   SELF      hit 4000ms
+  5154  Might                                           lvl 10   SELF      hit 4000ms
+  5156  Empower                                         lvl 10   SELF      hit 4000ms
+  5157  Duel Might                                      lvl 10   SELF      hit 1500ms
+  5158  Shield                                          lvl 10   SELF      hit 4000ms
+  5159  Magic Barrier                                   lvl 10   SELF      hit 4000ms
+  5160  Duel Weakness                                   lvl 10   ONE       hit 1500ms
+  5161  Agility                                         lvl 10   SELF      hit 4000ms
+  5162  Guidance                                        lvl 10   SELF      hit 4000ms
+  5163  Focus                                           lvl 10   SELF      hit 4000ms
+  5164  Wild Magic                                      lvl 10   SELF      hit 4000ms
+  5165  Charm                                           lvl 10   ONE       hit 1500ms
+  5166  Slow                                            lvl 10   ONE       hit 0ms
+  5167  Winter                                          lvl 10   ONE       hit 0ms
+  5168  Stun                                            lvl 10   ONE       hit 0ms
+  5169  Hold                                            lvl 10   ONE       hit 0ms
+  5170  Sleep                                           lvl 10   ONE       hit 0ms
+  5171  Paralyze                                        lvl 10   ONE       hit 0ms
+  5172  Medusa                                          lvl 10   ONE       hit 0ms
+  5173  Fear                                            lvl 10   ONE       hit 0ms
+  5174  Poison                                          lvl 10   ONE       hit 0ms
+  5175  Bleed                                           lvl 10   ONE       hit 0ms
+  5176  Silence                                         lvl 10   ONE       hit 0ms
+  5177  Doom                                            lvl 10   ONE       hit 0ms
+  5179  Raid Boss - Level 86                            lvl 1    SELF      hit 0ms
+  5180  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  5181  Raid Boss - Level 87                            lvl 1    SELF      hit 0ms
+  5182  Blessing of Protection                          lvl 1    ONE       hit 0ms
+  5183  Production: Dimensional Shock                   lvl 1    AURA      hit 0ms
+  5184  Production: Valakas Dragon Breath               lvl 1    FRONT_AREA  hit 3000ms
+  5185  Production: Magic-type Guard                    lvl 1    ONE       hit 4000ms
+  5202  NPC Ranged Stun                                 lvl 12   AURA      hit 4000ms
+  5203  NPC Ranged Fear                                 lvl 12   AURA      hit 4000ms
+  5204  Production-First Gigantic Pig Combination       lvl 1    SELF      hit 5800ms
+  5205  Boss Regeneration                               lvl 1    ONE       hit 0ms
+  5218  Production: Event Teleport                      lvl 1    ONE       hit 2000ms
+  5219  Huge Pig Stun                                   lvl 1    AREA      hit 6000ms
+  5220  Huge Pig Fear                                   lvl 1    AREA      hit 6000ms
+  7000  NPC Default                                     lvl 1    SELF      hit 0ms
+  7001  Dispel Buff                                     lvl 1    ONE       hit 0ms
+  7002  Dispel Debuff                                   lvl 1    ONE       hit 0ms
+  7003  Dispel All                                      lvl 1    ONE       hit 0ms
+  7008  not_used                                        lvl 1    SELF      hit 0ms
+  7009  not_used                                        lvl 1    SELF      hit 0ms
+  7010  not_used                                        lvl 1    SELF      hit 0ms
+  7011  not_used                                        lvl 1    SELF      hit 0ms
+  7012  not_used                                        lvl 1    SELF      hit 0ms
+  7013  not_used                                        lvl 1    SELF      hit 0ms
+  7014  Test - Critical Damage Up                       lvl 1    SELF      hit 0ms
+  7015  Test - Critical Damage Down                     lvl 1    SELF      hit 0ms
+  7016  Test - Critical Damage Up                       lvl 1    SELF      hit 0ms
+  7017  Test - Critical Damage Down                     lvl 1    SELF      hit 0ms
+  7018  Test - Critical Rate Up                         lvl 1    SELF      hit 0ms
+  7019  Test - Critical Rate Down                       lvl 1    SELF      hit 0ms
+  7020  Test - Critical Rate Up                         lvl 1    SELF      hit 0ms
+  7021  Test - Critical Rate Down                       lvl 1    SELF      hit 0ms
+  7022  Test - Find Hidden Door                         lvl 1    SELF      hit 1000ms
+  7023  not_used                                        lvl 1    SELF      hit 0ms
+  7024  not_used                                        lvl 1    SELF      hit 0ms
+  7025  not_used                                        lvl 1    SELF      hit 0ms
+  7026  not_used                                        lvl 1    SELF      hit 0ms
+  7027  not_used                                        lvl 1    SELF      hit 0ms
+  7028  For Stationary NPCs                             lvl 1    SELF      hit 0ms
+  7029  Super Haste                                     lvl 4    SELF      hit 0ms
+  7033  Test Flame Strike                               lvl 1    NONE      hit 0ms
+  7034  Test Aqua Splash                                lvl 1    NONE      hit 0ms
+  7035  Display - Swoop Cannon                          lvl 1    NONE      hit 0ms
+  7036  Display - Valakas                               lvl 1    NONE      hit 0ms
+  7037  Display - Tyrannosaurus Capture                 lvl 1    NONE      hit 0ms
+  7038  Channeling DD Test: Short                       lvl 1    NONE      hit 0ms
+  7039  Channeling DD Test: Middle                      lvl 1    NONE      hit 0ms
+  7040  Channeling DD Test: Long                        lvl 1    NONE      hit 0ms

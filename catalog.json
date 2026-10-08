@@ -27,6 +27,15 @@
     "description": "Toggle automatic potion use with .pots. Drinks CP, HP and MP potions when each falls under a percent you set, using Quick and Greater Healing Potions together on their own timers, with fallbacks when you run out."
   },
   {
+    "id": "taming",
+    "folder": "taming",
+    "name": "Beast Collar Taming",
+    "version": "1.0.0",
+    "author": "HumblePie",
+    "apiVersion": "1",
+    "description": "Collar-bound individual pets: capture validation, per-collar rolled profiles, rarity, growth, affinity, temperament, imprint, inherited skills, two-stage awakening, collar-bound equipment and a collar passport UI with a wear state. Gives every collar its own private NPC id so the stock pet code resolves the right individual and patches no core files. Reagents are sold by a store opened by double-clicking the granted catalogue item or by .tamestore; the page is generated in code because module HTML files are never loaded. See MODLOG.md."
+  },
+  {
     "id": "bot-control",
     "folder": "bot-control",
     "name": "Bot Control Menu",

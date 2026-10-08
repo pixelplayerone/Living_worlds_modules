@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../data/xsd/skills.xsd">
+	<!--
+		Beast Collar taming skills.
+
+		9300 Beast Binding - the capture skill. It is a server decision, not a
+		damage skill: the TameMonster effect validates the target, spends the
+		reagent, and either converts the creature or refunds it.
+	-->
+
+	<skill id="9300" levels="1" name="Beast Binding">
+		<icon>icon.skill3080</icon>
+		<operateType>A1</operateType>
+		<targetType>ONE</targetType>
+		<displayId>3081</displayId>
+		<castRange>600</castRange>
+		<effectRange>1100</effectRange>
+		<hitTime>2000</hitTime>
+		<mpConsume>30</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="TameMonster"/>
+		</effects>
+	</skill>
+
+	<!--
+		9301 Pet Power Strike - a pet-only Power Strike. Same icon and display as
+		the real one, but without the player weapon condition, so a tame can use it.
+	-->
+	<skill id="9301" levels="9" name="Power Strike">
+		<icon>icon.skill0003</icon>
+		<displayId>3</displayId>
+		<operateType>A1</operateType>
+		<targetType>ONE</targetType>
+		<castRange>40</castRange>
+		<coolTime>720</coolTime>
+		<table name="#effectPoints">-52 -54 -57 -64 -67 -70 -79 -83 -86</table>
+		<table name="#magicLevel">3 4 5 8 9 10 13 14 15</table>
+		<table name="#mpConsume">10 10 11 13 13 14 17 18 19</table>
+		<table name="#power">25 27 30 39 42 46 60 65 70</table>
+		<effectPoint>#effectPoints</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>1080</hitTime>
+		<magicLevel>#magicLevel</magicLevel>
+		<mpConsume>#mpConsume</mpConsume>
+		<nextActionAttack>true</nextActionAttack>
+		<overHit>true</overHit>
+		<power>#power</power>
+		<reuseDelay>13000</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage"/>
+		</effects>
+	</skill>
+
+	<!--
+		9303 Beast Recall - summons the tamed pet back out of its collar. A
+		distinct display (Summon Shadow) is used instead of the Beast Binding
+		charm so the client keeps the two skills as separate bar records; sharing
+		displayId 3081 made both entries render and behave as one charm.
+	-->
+	<skill id="9303" levels="1" name="Beast Recall">
+		<icon>icon.skill1128</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<displayId>1128</displayId>
+		<castRange>0</castRange>
+		<effectRange>0</effectRange>
+		<hitTime>1000</hitTime>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ResummonPet"/>
+		</effects>
+	</skill>
+
+	<!--
+		The tame technique bar buttons are deliberately NOT defined here.
+
+		A shortcut bar button is drawn by the client out of its own data, keyed by
+		id, and nothing the server sends can change that. Defining a skill here at
+		an id the client has never heard of therefore produces a button with a
+		black icon that crashes the client when pressed - which is exactly what
+		ids 1030, 1065, 1197, 1241, 1302 and 3808 did here before this file was
+		trimmed back.
+
+		So the buttons borrow four stock ids the client certainly has, and the
+		TameBarCast effect is attached to the cached skills at module startup
+		instead of being declared in XML. See TameBarSkill for the choice of ids
+		and why borrowing those four cannot affect anyone's game.
+	-->
+</list>

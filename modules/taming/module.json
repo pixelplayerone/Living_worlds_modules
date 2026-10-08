@@ -1,0 +1,31 @@
+{
+  "id": "taming",
+  "name": "Beast Collar Taming",
+  "version": "1.0.0",
+  "apiVersion": "1",
+  "entrypoint": "taming.TamingModule",
+  "description": "Collar-bound individual pets: capture validation, per-collar rolled profiles, rarity, growth, affinity, temperament, imprint, inherited skills, two-stage awakening, collar-bound equipment and a collar passport UI with a wear state. Gives every collar its own private NPC id so the stock pet code resolves the right individual and patches no core files. Reagents are sold by a store opened by double-clicking the granted catalogue item or by .tamestore; the page is generated in code because module HTML files are never loaded. See MODLOG.md.",
+  "author": "HumblePie",
+  "priority": 100,
+"resources": {
+    "items": ["data/items"],
+    "skills": ["data/skills"],
+    "multisell": ["data/multisell"]
+  },
+  "reserves": {
+    "items": [[9300, 9399]],
+    "skills": [[9300, 9399]],
+    "npcs": [[700000, 799999]]
+  },
+  "database": {
+    "install": "database/install.sql",
+    "remove": "database/remove.sql",
+    "tables": [
+      "tamed_pet",
+      "tamed_pet_skill",
+      "tamed_pet_equipment",
+      "tamed_pet_history",
+      "tamed_pet_bestiary"
+    ]
+  }
+  }
