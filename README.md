@@ -17,6 +17,7 @@ No server rebuild is needed to turn a feature on or off, only a restart.
 |---|---|---|---|
 | [Adventurer Buffer](modules/adventurer-buffer) | 0.4.3 | Khaos | Town support with owner-configured Basic, Mid or editable Custom buffs. |
 | [Arena Dueling](modules/arena-dueling) | 1.1.0 | sateriok | Phantoms hang out at the town PvP arenas and spar. Walk in and one of your own class challenges you to a duel, or call a duel by class yourself, optionally for an adena stake. |
+| [Auto Potions](modules/auto-potions) | 1.2.0 | sateriok | Toggle automatic potion use with .pots. Drinks CP, HP and MP potions when each falls under a percent you set, using Quick and Greater Healing Potions together on their own timers, with fallbacks when you run out. |
 | [Bot Control Menu](modules/bot-control) | 1.0.0 | justneedair | HTML menu that sends party-chat commands to Living World phantoms when a button is pressed |
 | [Bot Summon Menus](modules/bot-summon) | 1.0.0 | justneedair | Three voiced menus (.lfclass, .lfrole, .lfbuff) that shout LF for one bot at a time. |
 | [Buff Limits](modules/buff-limits) | 1.2.0 | Sateriok | Sets 2-hour durations on buffer-NPC buffs and on perma-uptime class self buffs like War Cry. Burst skills such as Frenzy are untouched. Applied in memory at startup; no files edited. |

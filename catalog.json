@@ -18,6 +18,15 @@
     "description": "Phantoms hang out at the town PvP arenas and spar. Walk in and one of your own class challenges you to a duel, or call a duel by class yourself, optionally for an adena stake."
   },
   {
+    "id": "auto-potions",
+    "folder": "auto-potions",
+    "name": "Auto Potions",
+    "version": "1.2.0",
+    "author": "sateriok",
+    "apiVersion": "1",
+    "description": "Toggle automatic potion use with .pots. Drinks CP, HP and MP potions when each falls under a percent you set, using Quick and Greater Healing Potions together on their own timers, with fallbacks when you run out."
+  },
+  {
     "id": "bot-control",
     "folder": "bot-control",
     "name": "Bot Control Menu",

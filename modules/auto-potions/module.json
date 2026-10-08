@@ -1,0 +1,10 @@
+{
+  "id": "auto-potions",
+  "name": "Auto Potions",
+  "version": "1.2.0",
+  "apiVersion": "1",
+  "entrypoint": "modules.autopotions.AutoPotionsModule",
+  "description": "Toggle automatic potion use with .pots. Drinks CP, HP and MP potions when each falls under a percent you set, using Quick and Greater Healing Potions together on their own timers, with fallbacks when you run out.",
+  "author": "sateriok",
+  "priority": 100
+}
