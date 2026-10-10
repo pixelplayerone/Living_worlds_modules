@@ -135,6 +135,15 @@
     "description": "PvP danger: phantoms occasionally come for you in the field and fight you once. Five kinds from a wimp that asks if you are a bot to the AssMuncher, each with its own timer, strength and adena reward. Optional Contested Farming Zones: kills in popular hunting grounds can bring a phantom who claims the spot."
   },
   {
+    "id": "phantom-management",
+    "folder": "phantom-management",
+    "name": "Phantom Management",
+    "version": "1.0.0",
+    "author": "nekelone_",
+    "apiVersion": "1",
+    "description": "In-game .phantom control panel for the phantom party system: stance, camp and pull, buffs, heals, cubics, weapon switching, travel, raid control, Phantom recruiting and persistent Friends."
+  },
+  {
     "id": "shop",
     "folder": "shop",
     "name": "Pocket Shop",
